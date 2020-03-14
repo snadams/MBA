@@ -123,4 +123,4 @@
       - If a firm can't pay its employers, creditors, suppliers, and tax authorities, the shareholder gets nothing. So it is in the best interest of the shareholder to make sure decisions are made to meet those obligations.
       - This means that shareholders bare more risk. A firm must provide enough incentive for the shareholder to shoulder that risk.
 
-![img](images\payoff-diagram.png)
+![img](images/payoff-diagram.png)
