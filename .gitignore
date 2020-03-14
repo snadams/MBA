@@ -1,0 +1,4 @@
+# Ignore PDFs, Word docs, Excel
+*.pdf
+*.doc*
+*.xls*
