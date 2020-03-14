@@ -12,3 +12,17 @@
 10. The **time value of money** principle.  The value of cash flows (money) depends critically on time.
 11. The principle that **cash is king**, not profits.  After Tax Cash flows (ATCF), not profits, create value.
 12. The **agency problem** principle.  Agency problems, aka conflicts of interest, are pervasive.  Managers won't work for owners.
+
+## Video: [*"Finance: What Managers Need to Know"*](http://www.youtube.com/watch?v=aJsmJsd6GIw)
+
+> Interview of Joe Knight, coauthor of Financial Intelligence series
+
+- Accounting takes transactions and figures out how to create historical information about what is happening with the business.
+- Finance takes accounting and makes business decisions.
+- If there are a large number of people looking at the finances of a business, there is less opportunity for fraud.
+- Profit and cash flow are different.
+  - Profit is counted when you make a sale. *Does not mean you have received the money.*
+  - We buy products (trucks, buildings) with cash but depreciate these items in the financial statements. It consumes the cash but we appear profitable because of depreciation.
+  - We only incur expenses when we receive the service.
+
+> The cash flow statement has become increasingly more important for businesses.
