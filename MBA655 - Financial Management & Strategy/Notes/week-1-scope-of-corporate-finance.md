@@ -120,7 +120,7 @@
     - Hard to maximize profits without knowing how to measure them. Usually requires knowledge of accrual-based accounting principles rather than cash flow.
   - *Maximize Shareholder Wealth?*
     - **residual claimants:** exert claims on the firm's cash flows that remain after all other claimants are satisfied in full, also known as stakeholders
-      - If a firm can't pay its employers, creditors, suppliers, and tax authorities, the shareholder gets nothing. So it is in the best interest of the shareholder to make sure decisions are made to meet those obligations.
+      - If a firm can't pay its employees, creditors, suppliers, and tax authorities, the shareholder gets nothing. So it is in the best interest of the shareholder to make sure decisions are made to meet those obligations.
       - This means that shareholders bare more risk. A firm must provide enough incentive for the shareholder to shoulder that risk.
 
 ![img](images/payoff-diagram.png)
