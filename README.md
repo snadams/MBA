@@ -1,3 +1,3 @@
 # MBA
 
-Used to store all notes related to MBA program.
+Used as a repository for notes.
