@@ -1,4 +1,6 @@
-# Fundamental Financial Principles
+# Week 1
+
+## Fundamental Financial Principles
 
 1. The principle of **self-interested behavior**.  People act in their own self-interest and in their own financial self-interest.
 2. The principle of **two-sided transactions**. For every buyer there is a seller.  This principle combined with the principle that both the buyer and seller are acting in their own self-interest tends to market markets very efficient, meaning that market prices tend to reflect all relevant information and assets tend to be appropriately priced.  If this was not true, the buyer and/or seller would act in their own self interest, and their actions would push the prices to a more efficient/appropriate level.
