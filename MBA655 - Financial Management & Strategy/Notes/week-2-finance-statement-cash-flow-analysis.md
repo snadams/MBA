@@ -55,8 +55,42 @@
 - If firm has preferred stock, it first deducts preferred stock dividends from net income, *earnings available for common stockholders*.
   - *Earnings available for common stockholders* is then divided by number of shares of common stock outstanding to produce earnings per share (EPS).
   - A dividend may be paid out to common stockholders and/or kept in retained earnings.
+- Earnings before interest and taxes (EBIT)
 
 #### Statement of Retained Earnings
 
-(Retained Earnings)<sub>current</sub> = (Retained Earnings)<sub>past</sub> - Cash Dividends 
+(Retained Earnings)<sub>current</sub> = (Retained Earnings)<sub>past</sub> - Cash Dividends
 
+**dividend payout ratio** - the fraction of current earnings available for common stockholders paid out as dividends
+
+#### Statement of Cash Flows
+
+- Isolates a firms' operating, investment, and financing cash flows and reconciles with changes in its cash and marketable securities during the year
+
+#### Notes to Financial Statements
+
+- Extremely useful to financial managers and analysts
+- Provide detailed information on accounting policies, calculations, and transactions that underlie entries in the financial statements
+- Can deal with firm's revenue recognition practices, income taxes, leases, employee compensation plans, etc.
+
+### Cash Flow Analysis
+
+- *Operating flows* are cash flows directly related to the production and sales of cash.
+- *Investment flows* are cash flows associated with the purchase of fixed assets and business equity.
+- *Financing flows* are cash flows that result from debt and equity financing transactions.
+
+**free cash flow** - amount of cash flow available to investors - *the providers of debt and equity capital*
+
+- Net operating profits after taxes (NOPAT) - firm's earning before interest and after taxes
+
+$$NOPAT=EBIT\times(1-T)$$
+
+- Operating cash flow
+
+$$OCF=NOPAT + Depreciation$$
+
+**non-cash charges** - expenses that appear on the income statement but do involve an actual outlay of cash
+
+- depreciation, amortization, and depletion allowances
+
+$$FCF = OCF - Capital Expenditures + Depreciation-\Delta WC$$
