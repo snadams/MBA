@@ -94,3 +94,4 @@ $$OCF=NOPAT + Depreciation$$
 - depreciation, amortization, and depletion allowances
 
 $$FCF = OCF - Capital Expenditures + Depreciation-\Delta WC$$
+<img src="https://render.githubusercontent.com/render/math?math=FCF = OCF - Capital Expenditures + Depreciation-\Delta WC">
