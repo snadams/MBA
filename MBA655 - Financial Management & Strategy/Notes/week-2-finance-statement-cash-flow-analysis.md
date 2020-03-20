@@ -83,15 +83,14 @@
 
 - Net operating profits after taxes (NOPAT) - firm's earning before interest and after taxes
 
-$$NOPAT=EBIT\times(1-T)$$
+<img src="https://render.githubusercontent.com/render/math?math=NOPAT=EBIT\times(1-T)">
 
 - Operating cash flow
 
-$$OCF=NOPAT + Depreciation$$
+<img src="https://render.githubusercontent.com/render/math?math=OCF=NOPAT+Depreciation">
 
 **non-cash charges** - expenses that appear on the income statement but do involve an actual outlay of cash
 
 - depreciation, amortization, and depletion allowances
 
-$$FCF = OCF - Capital Expenditures + Depreciation-\Delta WC$$
 <img src="https://render.githubusercontent.com/render/math?math=FCF = OCF - Capital Expenditures + Depreciation-\Delta WC">
