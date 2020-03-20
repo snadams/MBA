@@ -81,6 +81,13 @@
 
 **free cash flow** - amount of cash flow available to investors - *the providers of debt and equity capital*
 
+  <img src="https://render.githubusercontent.com/render/math?math=FCF=OCF-\Delta FA-(\Delta CA - \Delta AP - \Delta accruals)">
+
+    - FA = change in gross fixed assets
+    - CA = change in current assets
+    - change in accounts payable
+    - change in accrued expenses  
+
 - Net operating profits after taxes (NOPAT) - firm's earning before interest and after taxes
 
 <img src="https://render.githubusercontent.com/render/math?math=NOPAT=EBIT\times(1-T)">
@@ -89,8 +96,30 @@
 
 <img src="https://render.githubusercontent.com/render/math?math=OCF=NOPAT%2bDepreciation">
 
-**non-cash charges** - expenses that appear on the income statement but do involve an actual outlay of cash
+**noncash charges** - expenses that appear on the income statement but do involve an actual outlay of cash
 
 - depreciation, amortization, and depletion allowances
 
 <img src="https://render.githubusercontent.com/render/math?math=FCF = OCF - Capital Expenditures %2b Depreciation-\Delta WC">
+
+#### Inflows and Outflows of Cash
+
+| Inflows | Outflows |
+| --- | --- |
+| decrease in any asset| increase in any asset|
+| increase in any liability | decrease in any liability |
+| Net income (profit after taxes) | Net loss |
+| Depreciation and other noncash charges | Dividends paid |
+| Sale of common or preferred stock | Repurchase of retirement or stock |
+
+- Statement of cash flow provides the clearest and most complete view of cash coming in and out of the business.
+- **net working capital** - current assets minus liabilities
+  - measure of the firm's overall liquidity (i.e. higher values means greater solvency)
+
+### Assessing Financial Performance Using Ratio Analysis
+
+- **ratio analysis** - calculating and interpreting financial ratios to assess a firm's performance and status
+
+#### Liquidity ratios
+
+- Measures a firm's ability to satisfy its short-term obligations *as they come due*
