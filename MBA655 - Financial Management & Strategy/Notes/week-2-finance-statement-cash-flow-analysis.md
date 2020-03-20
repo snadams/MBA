@@ -87,10 +87,10 @@
 
 - Operating cash flow
 
-<img src="https://render.githubusercontent.com/render/math?math=OCF=NOPAT+Depreciation">
+<img src="https://render.githubusercontent.com/render/math?math=OCF=NOPAT%2bDepreciation">
 
 **non-cash charges** - expenses that appear on the income statement but do involve an actual outlay of cash
 
 - depreciation, amortization, and depletion allowances
 
-<img src="https://render.githubusercontent.com/render/math?math=FCF = OCF - Capital Expenditures + Depreciation-\Delta WC">
+<img src="https://render.githubusercontent.com/render/math?math=FCF = OCF - Capital Expenditures %2b Depreciation-\Delta WC">
