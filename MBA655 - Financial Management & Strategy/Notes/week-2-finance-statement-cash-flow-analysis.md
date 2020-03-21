@@ -100,7 +100,7 @@
 
 - depreciation, amortization, and depletion allowances
 
-<img src="https://render.githubusercontent.com/render/math?math=FCF = OCF - Capital Expenditures %2b Depreciation-\Delta WC">
+<img src="https://render.githubusercontent.com/render/math?math=FCF = OCF - Capital\ Expenditures %2b Depreciation-\Delta WC">
 
 #### Inflows and Outflows of Cash
 
@@ -123,3 +123,116 @@
 #### Liquidity ratios
 
 - Measures a firm's ability to satisfy its short-term obligations *as they come due*
+- **current ratio** - measures the firms ability to meet its short term obligations
+
+  <img src="https://render.githubusercontent.com/render/math?math=\frac{Current\ Assets}{Current\ Liabilities}">
+
+  - The more predictable a firm's cash flows, the  lower the acceptable current ratio
+- **quick (acid-test) ratio** - similar to the current ratio, but excludes inventory (*least-liquid current asset*)
+  
+  <img src="https://render.githubusercontent.com/render/math?math=\frac{Current\ Assets-Inventory}{Current\ Liabilities}">
+
+  - provides a better measure of overall liquidity when a firm's inventory cannot be easily converted into cash
+
+#### Activity ratios
+
+- Measures the speed of which the firm converts various accounts in to sales or cash
+- **inventory turnover** - measure of how quickly a firm sells its goods
+
+  <img src="https://render.githubusercontent.com/render/math?math=\frac{Cost\ Of\ Goods\ Sold}{Inventory}">
+
+- *Average age of turnover* is:
+
+  <img src="https://render.githubusercontent.com/render/math?math=\frac{Inventory\ Turnover}{365}">
+
+- Average collection period (*also known as average age of accounts receivable*)
+  - If  a firm offered 45-day credit terms than a 46 day collection period would be acceptable.
+
+<img src="https://render.githubusercontent.com/render/math?math=Average\ Daily\ Sales=\frac{Annual\ Sales}{365}=\frac{\$12,843}{365}=\$35.19">
+<img src="https://render.githubusercontent.com/render/math?math=Average\ Collection\ Period=\frac{Account\ Receivables}{Average\ Daily\ Sales}=\frac{\$1,619}{\$35.19}=46.0\ days">
+
+- **average payment period** - the average length of time it takes a firm to pay its suppliers
+
+<img src="https://render.githubusercontent.com/render/math?math=Average\ Daily\ Purchases=\frac{Annual\ Purchases}{365}">
+<img src="https://render.githubusercontent.com/render/math?math=Average\ Daily\ Purchases=\frac{Accounts\ Payable}{Average\ Daily\ Purchases}">
+
+- **fixed asset turnover** - measures the efficiency in which a firm uses its *fixed assets*
+  - tells how many dollars of sales the firms generates per dollar of investment in fixed assets
+
+  <img src="https://render.githubusercontent.com/render/math?math=\frac{Sales}{Net\ Fixed\ Assets}">
+
+- **total asset turnover** - measures the efficiency with which a firm uses all of its assets to generate sales
+  - Generally favor a higher turnover ratio
+
+  <img src="https://render.githubusercontent.com/render/math?math=\frac{Sales}{Total\ Assets}">
+
+#### Debt Ratios
+
+- Measure the extent to which a firm uses money from creditors rather than from stockholders to finance its operations
+- **coverage ratios** - focus more on income statement measures of the firm's ability to generate sufficient cash flow to make scheduled interest and principal payments
+- **debt ratio** - measures the proportion of total assets financed by the firm's creditors
+  - Higher the ratio, greater the firm's reliance on borrowed money to finance activities
+
+<img src="https://render.githubusercontent.com/render/math?math=\frac{Total\ Liabilities}{Total\ Assets}">
+
+- **assets-to-equity (A/E) ratio** - the amount that assets were greater than equity
+
+<img src="https://render.githubusercontent.com/render/math?math=\frac{Total\ Assets}{Common\ Stock\ Equity}">
+
+- **debt-to-equity ratio** - percentage of debts in relation to stockholders' equity
+
+<img src="https://render.githubusercontent.com/render/math?math=\frac{Longterm\ Debt}{Stockholders'\ Equity}">
+
+> *Both of these ratios use book values of debt, equity, and asset. Analysts should be aware that market values of these variables can be different from book.*
+
+- **times interest earned ratio** - measures the firms ability to make contractual interest payments
+  - The higher the better
+
+<img src="https://render.githubusercontent.com/render/math?math=\frac{Earnings\ before\ interest\ and\ taxes}{Interest\ Expense}">
+
+#### Profitability Ratios
+
+- **gross profit margin** - measures the percentage of each sales dollar remaining after the firm has paid for its goods
+
+  <img src="https://render.githubusercontent.com/render/math?math=\frac{Gross\ profit}{Sales}">
+
+- **operating profit margin** - measures the percentage of each sales dollar remaining after deducting all costs and expenses *other than* interest and taxes  
+
+  <img src="https://render.githubusercontent.com/render/math?math=\frac{Operating\ profit}{Sales}">
+
+- **net profit margin** - measures the percentage of each sales dollar remaining after deducting all costs and expenses, *including* interest, taxes, and preferred stock dividends
+
+  <img src="https://render.githubusercontent.com/render/math?math=\frac{Earnings\ available\ for\ common\ stockholders}{Sales}">
+
+- **earnings per share** - represents the dollar amount *earned* on behalf of each share of common stock outstanding
+  - Different from *dividends per share* which is the amount of earnings actually distributed to each shareholder
+
+<img src="https://render.githubusercontent.com/render/math?math=\frac{Earnings\ available\ for\ common\ stockholders}{Number\ of\ shares\ of\ common\ stock\ outstanding}">
+
+- **return on total assets (ROA)** - measures management's overall effectiveness in using the firm's assets to generate returns to common stockholders
+  - also known as *return on investment (ROI)*
+
+<img src="https://render.githubusercontent.com/render/math?math=\frac{Earnings\ available\ for\ common\ stockholders}{Total\ assets}">
+
+- **return on common equity (ROE)** - captures the return earned on the common stockholders' (owners') investment in the firm
+
+<img src="https://render.githubusercontent.com/render/math?math=\frac{Earnings\ available\ for\ common\ stockholders}{Common\ stock\ equity}">
+
+- ROA can be also be broken into components using the DuPont system.
+
+<img src="https://render.githubusercontent.com/render/math?math=ROA=Net\ profit\ margin\times Total\ asset\ turnover">
+
+#### Market Ratios
+
+- relate the firm's market value, as measured by its current share price, to certain accounting values
+  - provide insight of how investors think the firm is performing
+  - reflect the common stockholders' assessment of the firm's past and expected future performance
+- **price/earnings (P/E) ratio** - measures the amount investors are willing to pay for each dollar of the firm's earnings
+  - A high P/E ratio indicates investors' belief that a firm will achieve rapid earnings growth in the future, *i.e. growth stocks*
+
+<img src="https://render.githubusercontent.com/render/math?math=\frac{Market\ price\ per\ share\ of\ common\ stock}{Earnings\ per\ share}">
+
+- **market/book (M/B) ratio** - relates the market value of the firm's shares to their book value
+
+<img src="https://render.githubusercontent.com/render/math?math=Book\ value\ per\ share=\frac{Common\ stock\ equity}{Number\ of\ shares\ of\ common\ stock\ outstanding}">
+<img src="https://render.githubusercontent.com/render/math?math=M/B\ ratio=\frac{Market\ value\ per\ share\ of\ common\ stock}{Book\ value\ per\ share\ of\ common\ stock}">
