@@ -75,7 +75,7 @@
 
 ### Cash Flow Analysis
 
-- *Operating flows* are cash flows directly related to the production and sales of cash.
+- *Operating flows* are cash flows directly related to the production and sales of products and services.
 - *Investment flows* are cash flows associated with the purchase of fixed assets and business equity.
 - *Financing flows* are cash flows that result from debt and equity financing transactions.
 
