@@ -54,23 +54,23 @@
 
 - Present value of a mixed stream
 
-    <img src="https://render.githubusercontent.com/render/math?math=FV=\sum_{t=1}^{n} CF_t\times\frac{1}{(1%2br)^n}">
+    <img src="https://render.githubusercontent.com/render/math?math=PV_{mixed\ stream}=\sum_{t=1}^{n} CF_t\times\frac{1}{(1%2br)^n}">
 
 - Present value of an ordinary annuity
 
-    <img src="https://render.githubusercontent.com/render/math?math=PV=\frac{PMT}{r}\times(1-\frac{1}{(1%2br)^n})">
+    <img src="https://render.githubusercontent.com/render/math?math=PV_{ordinary\ annuity}=\frac{PMT}{r}\times(1-\frac{1}{(1%2br)^n})">
 
 - Present value of an annuity due
 
-    <img src="https://render.githubusercontent.com/render/math?math=PV=\frac{PMT}{r}\times[1-\frac{1}{(1%2br)^n}]\times(1%2br)">
+    <img src="https://render.githubusercontent.com/render/math?math=PV_{annuity\ due}=\frac{PMT}{r}\times[1-\frac{1}{(1%2br)^n}]\times(1%2br)">
 
 - **perpetuity**: an annuity with an infinite life, will pay the same amount at the end of every year forever
 
-    <img src="https://render.githubusercontent.com/render/math?math=FV=PMT\times\sum_{t=1}^{\infty}\frac{1}{(1%2br)^t}=\frac{PMT}{r}">
+    <img src="https://render.githubusercontent.com/render/math?math=PV_{perpetuity}=PMT\times\sum_{t=1}^{\infty}\frac{1}{(1%2br)^t}=\frac{PMT}{r}">
 
 - Present value of a growing perpetuity
 
-    <img src="https://render.githubusercontent.com/render/math?math=PV=\frac{CF_1}{r-g} (r &gt; g)">
+    <img src="https://render.githubusercontent.com/render/math?math=PV_{growing\ perpetuity}=\frac{CF_1}{r-g} (r &gt; g)">
 
   - CF = first year's cash flow that occurs one year from today
   - g = constant annual rate of growth (from now until end of time)
@@ -110,3 +110,7 @@
     <img src="https://render.githubusercontent.com/render/math?math=EAR=e^r-1">
 
 **loan amortization**: refers to a borrower making equal periodic payments over time to fully repay a loan
+
+**t-period, growing annuity:** an annuity that increases for *t* periods at a rate of *g*
+
+<img src="https://render.githubusercontent.com/render/math?math=PV_{t\ period\ growing\ annuity}=[\frac{pmt_{1}}{(r-g)}\times[1-(\frac{(1%2bg)}{(1%2br)})^t]">
