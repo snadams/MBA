@@ -162,7 +162,7 @@ Bonds sell at a *discount* when the price is less than par value. Its sold at a 
 
   <img src="https://render.githubusercontent.com/render/math?math=V_S=V_F-V_D-V_P">
 
-    - S = stock, F = total enterprise, P = preferred, D = debt
+  - S = stock, F = total enterprise, P = preferred, D = debt
 
 ### Other Approaches to Common Stock Valuation
 
