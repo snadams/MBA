@@ -63,3 +63,73 @@ Present value of interest tax shield
 2. The higher the personal tax rate on equity-related investment income (dividends and capital gains), the more debt companies will use in equilibrium.
 3. The higher the personal tax rate on interest income, the less debt companies will use in equilibrium.
 4. The more nondebt tax shields a company has, the less debt it will use in equilibrium.
+
+## Chapter 13 - Capital Structure: Balancing the Benefits and Costs of Debt
+
+### Debt Tax Shields and Firm Profitability
+
+* The more debt a firm uses, the higher are the interest expenses that the firm must pay, and therefore the greater the likelihood that the firm will experience losses in at least some years.
+
+### Costs of Bankruptcy
+
+**bankruptcy**: legal process used to handle the process when an entity cannot meet its debt obligations
+
+Bankruptcy costs fall into two categories:
+
+* *Direct bankruptcy costs* include fees paid to attorneys, accountants, investment bankers, and other professionals involved in proceedings in addition to other expenses directly tied to bankruptcy filing and administration
+* *Indirect bankruptcy costs* include the loss of customers and key suppliers, time managers devote to bankruptcy process instead of core business, and missed opportunities to invest in positive-NPV projects.
+
+<img src="https://render.githubusercontent.com/render/math?math=V_L=V_U%2bPV(Tax\ shields)-PV(bankruptcy\ costs)">
+
+* V(L) = value of a levered firm
+* V(U) = value of an unlevered firm
+
+* Customers would be unlikely to abandon a firm in financial distress whose product required little or no service, or typically sold without a warranty (i.e. fast food restaurants, grocery stores). More debt can be employed.
+* Firms like Google or other high-tech firms viabilities depend on long-lived, complex products that customers will worry that no one will be able to replace the service if it goes bankrupt. Less debt is employed.
+
+### Agency Costs and Capital Structure
+
+* Debt helps firms overcome the *agency costs of outside equity*.
+  * Using debt means a firm can sell less external equity and still finance its operations.
+  * Reduces managerial perquisite (perk) consumption because they need to make regular debt-service payments. Excessive perk consumption might cause a loss of the company.
+* Equity helps firms overcome the *agency costs of outside debt*.
+  * **asset substitution**: promising to invest in a safe asset to obtain a return reflecting low risk but then substituting a riskier asset that offers the possibility of a higher return
+    * This arises from the fact that if companies are in financial distress, shareholders have everything to gain on a gamble that can net a profit, than playing it safe in an investment that only affects debt holders.
+  * **underinvestment**: when a leveraged company foregoes valuable investment opportunities because debt holders would capture a portion of the benefits of the project, leaving insufficient returns to shareholders
+
+Trade-off model expresses a levered firm's value in terms of an unlevered firm's value as adjusted for by the present values of tax shield, bankruptcy costs, and the agency costs of debt and equity.
+
+<img src="https://render.githubusercontent.com/render/math?math=V_L=V_U%2bPV(Tax\ shields)-PV(bankruptcy\ costs)-PV(Agency\ costs)">
+
+Implications from the trade-off model include:
+
+* Profitable firms should borrow more than unprofitable firms as they are more likely to benefit from debt tax shields.
+* Firms that own tangible, marketable assets should borrow more than firms whose assets are intangible or highly specialized.
+* Safer firms should borrow more than riskier firms.
+* Companies should have a target cpaital structure.
+
+### The Pecking-Order Theory
+
+There are two empirical regularities that are inconsistent with the trade-off model:
+
+1. The most profitable firms in an industry have the lowest debt ratios.
+2. Firms issue debt frequently, but equity issues are rare. They are often greeted with a large decline in the firm's stock price.
+
+The pecking order theory is based on four facts:
+
+1. Dividend policy is "sticky". Managers tend to maintain a stable dividend payment, neither increasing nor decresasing in response to fluctuations in profit.
+2. Firms prefer internal financing (profits and retained cash) to external financing of any sort (debt or equity).
+3. If a firm must obtain external financing, it will issue the safest security first.
+4. If a firm requires more external financing, it will work down the "pecking order of securities:
+   * Safe debt
+   * Risky debt
+   * Convertible securities
+   * Preferred stock
+   * common stock
+
+**financial slack**: a firm's cash and marketable securities holdings in addition to its unused debt capacity
+
+### Signaling and Market-Timing Models
+
+* One way to solve information asymmetry between managers and investors is by signaling good news. They could do this by adopting a heavily leveraged capital structure *signaling* to investors that only firms with good prospects can tak on debt.
+* Market-timing models refer to issuing equity when share values are high and issuing debt when they are not.
