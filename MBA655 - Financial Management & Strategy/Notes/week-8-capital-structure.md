@@ -106,7 +106,7 @@ Implications from the trade-off model include:
 * Profitable firms should borrow more than unprofitable firms as they are more likely to benefit from debt tax shields.
 * Firms that own tangible, marketable assets should borrow more than firms whose assets are intangible or highly specialized.
 * Safer firms should borrow more than riskier firms.
-* Companies should have a target cpaital structure.
+* Companies should have a target capital structure.
 
 ### The Pecking-Order Theory
 
