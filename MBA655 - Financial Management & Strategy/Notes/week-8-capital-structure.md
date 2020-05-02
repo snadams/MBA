@@ -95,7 +95,7 @@ Bankruptcy costs fall into two categories:
 * Equity helps firms overcome the *agency costs of outside debt*.
   * **asset substitution**: promising to invest in a safe asset to obtain a return reflecting low risk but then substituting a riskier asset that offers the possibility of a higher return
     * This arises from the fact that if companies are in financial distress, shareholders have everything to gain on a gamble that can net a profit, than playing it safe in an investment that only affects debt holders.
-  * **underinvestment**: when a leveraged company foregoes valuable investment opportunities because debt holders would capture a portion of the benefits of the project, leaving insufficient returns to shareholders
+  * **underinvestment**: when a leveraged company foregos valuable investment opportunities because debt holders would capture a portion of the benefits of the project, leaving insufficient returns to shareholders
 
 Trade-off model expresses a levered firm's value in terms of an unlevered firm's value as adjusted for by the present values of tax shield, bankruptcy costs, and the agency costs of debt and equity.
 
@@ -117,7 +117,7 @@ There are two empirical regularities that are inconsistent with the trade-off mo
 
 The pecking order theory is based on four facts:
 
-1. Dividend policy is "sticky". Managers tend to maintain a stable dividend payment, neither increasing nor decresasing in response to fluctuations in profit.
+1. Dividend policy is "sticky". Managers tend to maintain a stable dividend payment, neither increasing nor decreasing in response to fluctuations in profit.
 2. Firms prefer internal financing (profits and retained cash) to external financing of any sort (debt or equity).
 3. If a firm must obtain external financing, it will issue the safest security first.
 4. If a firm requires more external financing, it will work down the "pecking order of securities:
