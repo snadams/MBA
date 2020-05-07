@@ -68,7 +68,7 @@ This is the measure of a return *ex post* (after the fact). The goal would be to
 
 <img src="https://render.githubusercontent.com/render/math?math=Cov(R_1,R_2)=\frac{[\sum_{t=1}^{N}] (R_{1t}-R+1)(R_{2t}-R+2)}{N-1}">
 
-**correlation coefficient**: standardizes the covariance measure byu dividing covariance by the product of the standard deviation of each asset
+**correlation coefficient**: standardizes the covariance measure by dividing covariance by the product of the standard deviation of each asset
 
 * ranges from -1.0 to +1.0, the higher the number the more likely the assets move together
 * Volatility of a two-asset portfolio depends on correlation between two assets. The lower their correlation coefficient, the less volatile the portfolio.
