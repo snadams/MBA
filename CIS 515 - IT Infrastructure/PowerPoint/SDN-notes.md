@@ -54,3 +54,25 @@ Why are companies transitioning to SDN from traditional networks?
 - Bring-you-own-device in workplace requires dynamic and flexible networks.
   - Traditional networking adheres to cycles and proprietary interfaces.
 - Ease of administration through software and automation
+
+## Justin Neece
+
+Coming from a managed service provider (MSP), here are some of the benefits that ACI added for my previous position.
+
+- Allowed for a more streamlined deployment, "cookie cutter method", of turning up services and resources for multiple customers.
+- Making repeatable work much easier by using (reusing) APIs for tasks that happen frequently.
+- We went from managing large number of switches manually, to having one platform to configure all of them.
+- Managing segmentation, this was previously done by creating vlans, possibly through a large number of switches and tracking by spreadsheet.
+- Alleviating the need for OTV by having one fabric stretching across multiple datacenters.
+- Although I was not able to see most of the benefits of the automation piece. The automated processes associated with ACI, I am sure, saved a lot of time.
+With the design of a new customer portal, the ability to offer "self-service" to customer's that wanted to manage their own infrastructure was on the radar.                     This would not have been able to be accomplished with the previous network setup.
+- Many customers had separate production, UAT, and DEV environments which would require a maintenance window, and network support to make changes to shift resources from one "zone" to another when deploying upgrades to applications. Afterwards, this could be accomplished by moving entire environments seamlessly.
+
+At OPPD, here are some benefits we have already seen.
+
+- Using Postman, we were able to build scripts that supported 80+ percent of the deployment configuration. (Huge benefit!)
+- Simplified the management of the legacy Nexus 7K, Nexus 5K, and FEX setup for each datacenter.
+- Allows for multi-tenancy, in OPPD's case this means allowing segmentation. Being able to split datacenter resources without purchasing separate equipment.
+- OPPD used to have to verify what resources were available (OTV, FEX connectivity, available Vlans) before being able to add things into the datacenter. Now we check one place.
+-  In a nutshell, "any service, any port, any datacenter" is available now....
+- Growing the datacenter in an ACI environment is also much easier and manageable, than growing it switch by switch.
