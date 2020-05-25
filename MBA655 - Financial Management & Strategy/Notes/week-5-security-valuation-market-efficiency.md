@@ -16,7 +16,7 @@
 
 - The valuation process links an asset's risk and return to determine its price. Ultimately driven by size, timing, and risk of future cash flows.
 
-*Fundamental valuation model*
+#### Fundamental valuation model
 
 <img src="https://render.githubusercontent.com/render/math?math=P_0=\frac{CF_1}{(1%2br)^1}%2b\frac{CF_2}{(1%2br)^2}%2b...%2b\frac{CF_n}{(1%2br)^n}">
 
@@ -35,7 +35,7 @@
   - Only bonds issued by the most credit-worthy national governments are viewed as risk-free by investors
 - **zero-coupon bond**: a bond that makes no intermediate interest payments, promising a single fixed payment on a specified future date
 
-*Formula for coupon-paying notes or bonds*
+#### Formula for coupon-paying notes or bonds
 
 <img src="https://render.githubusercontent.com/render/math?math=Price=\frac{\frac{C}{2}}{1%2b(\frac{r}{2})^1}%2b\frac{\frac{C}{2}}{1%2b(\frac{r}{2})^2}%2b\frac{\frac{C}{2}}{1%2b(\frac{r}{2})^3}%2b...%2b\frac{\frac{C}{2}%2bPAR}{1%2b(\frac{r}{2})^n}">
 
@@ -76,7 +76,7 @@ Bonds sell at a *discount* when the price is less than par value. Its sold at a 
 
 **Yield Curve**: represents the relationship between YTM and maturity for a group of similar bonds
 
-*Normal yield curve*
+#### Normal yield curve
 
 ![img](images/normal-yield-curve.jpg)
 
@@ -84,7 +84,7 @@ Bonds sell at a *discount* when the price is less than par value. Its sold at a 
 - The general rule is that yield on a bond must be sufficient to offer investors a positive *real return*.
 - **real return**: difference between *nominal return* (or stated) and the inflation rate
 
-*Inverted yield curve*
+##### Inverted yield curve
 
 ![img](images/inverted-yield-curve.jpg)
 
