@@ -114,3 +114,39 @@ Developing a corporate strategy involves four considerations:
 **productivity**: the value of outputs (services and products) produced divided by the values of input resources (wages, costs of equipment, etc.)
 
 * Managers usually measure productivity through labor productivity (index of of the output per person or per hour worked) or machine productivity.
+
+## Supplement A: Decision Making
+
+**break-even quantity**: the volume at which total revenues equal total costs
+
+**break-even analysis**: the use of the break-even quantity; it can be used to compare processes by finding the volume at which two different processes have equal total costs
+
+* All costs are divided into two categories, variable and fixed costs.
+
+**preference matrix**: table that allows the manager to rate an alternative according to several performance criteria
+
+* each score is weighted according to perceived importance
+* allows for quantitative and qualitative performance criteria
+
+**decision theory**: a general approach to decision making when the outcomes associated with alternatives are often in doubt
+
+* This allows you to examine decisions under three situations: certainty, uncertainty, and risk.
+
+### Decision Theory Process
+
+1. List the feasible alternatives.
+2. List the events that have an impact on the outcome of the choice but are not under the manager's control.
+3. Calculate the payoff for each alternative in each event.
+   * **payoff table**: a table that shows the amount for each alternative if each possible event occurs
+4. Estimate the likelihood of each event, using past data, executive opinion, or other forecasting methods.
+5. Select a decision rule to evaluate the alternatives, such as choosing the alternative with the lowest expected cost.
+
+What if a manager can list the possible events but cannot estimate the probability? Managers can use one of four decision rules.
+
+1. **Maximin.** Choose the alternative that is the "best of the worst" (pessimist).
+2. **Maximax.** CHoose the alternative that is the "best of the best" (optimist).
+3. **Laplace.** Choose the alternative with the best weighted payoff (realist).
+4. **Minimax Regret.** Choose the alternative with the best "worst regret".
+   * Calculate the regrets (difference between a given payoff and the best payoff in the same column) and choose the smallest.
+
+**decision tree**: a schematic model of alternatives alternatives available to the decision maker, along with their possible consequences
