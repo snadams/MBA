@@ -123,6 +123,8 @@ The computerized process would break even at **742,858 units** with the new pric
 
 Management should build a large facility as it has the highest expected payoff.
 
+![img](map.png)
+
 ## Chapter 8
 
 ### Problem 8-18
