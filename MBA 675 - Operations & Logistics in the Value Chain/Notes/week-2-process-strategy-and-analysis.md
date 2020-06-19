@@ -36,7 +36,7 @@ Here are the options that are used for managing demand:
   * i.e. a park can counterbalance seasonal staffing requirements by offering ice skating in the winter and basketball in the summer
 * promotional pricing
   * rebates, price reductions for winter clothing in the summer, "two-for-one"
-* prescheduled appointments
+* pre-scheduled appointments
   * This allows demand to be leveled to not exceed supply.
   * Used by doctors, dentists, lawyers, and repair shops
 * reservations
@@ -162,3 +162,103 @@ How does one choose a time-series forecasting methods?
 **collaborative planning, forecasting, and replenishment (CPFR)**: a process for supply chain integration that allows a supplier and its customers to collaborate on making the forecast by using the Internet
 
 ## Chapter 13: Supply Chain Logistic Networks
+
+**facility location**: the process of determining geographic sites for a firm's operations
+
+**distribution center**: a warehouse or stocking point where goods are stored for subsequent distribution to manufacturers, wholesalers, retailers, and customers
+
+### Factors Affecting Location Decisions
+
+1. The factor must be sensitive to location. If a factor is uniform in all locations, it should not be considered.
+2. The factor must have high impact on the company's ability to meet its goals.
+
+Can be separated into dominant and secondary factors.
+
+#### Factors in Manufacturing
+
+* Favorable labor climate
+  * function of wage rates, training requirements, attitudes toward work, worker productivity, and union strength
+* Proximity to markets
+  * Often cheaper to manufacture offshore near the market than to make it at home and ship it abroad
+* Impact on environment
+* **Quality of life**: a factor that considers the availability of good schools, recreational activities, cultural events, and an attractive lifestyle
+* Proximity to suppliers and resources
+* Proximity to the parent company's facilities
+  * Communication and coordination can become more difficult as distance increases
+* Utilities, taxes, and real estate costs
+* Secondary factors include room for expansion, construction costs, competition from other firms for the workforce
+
+#### Factors in Services
+
+* Proximity to customers
+  * Few people will travel to a service provider if another is more convenient
+* Transportation costs and proximity to markets
+* Location of competitors
+  * Sometimes it pays off to avoid areas where competitors are well-established
+  * Some industries, like car sales and fast food restaurants prefer to be near others, to create a *critical mass* (i.e. a situation whereby several competing firms clustered in one location attractor more customers than the total number who would shop at the same stores at scattered location)
+* Site-specific factors like retail activity, residential density and traffic flow for retailers
+
+### Load-Distance Method
+
+**load-distance method**: a mathematical model used to evaluate locations based on proximity factors
+
+* Assumes that:
+  * There is only one facility to be located
+  * Must serve a predetermined set of nodes (customer, suppliers) in a a logistic network
+  * Independent of any other facility that may be in the network
+* The purpose is to select a location that minimizes the sum of the loads from the facility to each node.
+* Distance can be measured be in euclidean distance or rectilinear distance.
+  * **euclidean distance**: the straight-line distance, or shortest possible path, between two points
+    * x_i, y_i represent coordinates of customer i
+    * x^\*, y^\* represent coordinates of proposed facility
+    * d_i represents the distance between customer i and the proposed facility
+
+    <img src="https://render.githubusercontent.com/render/math?math=d_i=\sqrt{(x_i-x^*)^2%2b(y_i-y^*)^2}">}
+
+  * **rectilinear distance**: the distance between two points with a series of 90-degree turns, as along city blocks
+
+    <img src="https://render.githubusercontent.com/render/math?math=d_i=|x_i-x^*|%2b|y_i-y^*|">
+
+* To calculate the load-distance score, one must simply multiple the distance by the load (i.e shipments from suppliers, between plants or to customers, or to customers traveling to and from facility)
+
+  <img src="https://render.githubusercontent.com/render/math?math=ld=\sum{l_id_i}">
+
+* **center of gravity**: a good starting point to evaluate locations in the target area using the load-distance model
+
+  <img src="https://render.githubusercontent.com/render/math?math=x^*=\frac{\sum{l_ix_i}}{\sum{l_i}}\ and\ y^*=\frac{\sum{l_iy_i}}{\sum{l_i}}">
+
+### Transportation Method
+
+When a firm with a network of existing facilities plans a new facility one of two conditions exist:
+
+* The facilities operate independently (i.e. a chain of restaurants, health clinics, or banks)
+* The facilities interact by moving materials or products to each other or share in the servicing of particular customers (i.e. component manufacturing plants, assembly plants, or warehouses)
+
+**transportation method for location problems**: a quantitative approach that can help solve multiple-facility location problems
+
+* used to determine the allocation patter that minimizes the cost of shipping products from two or more plants (*or sources of supply*) to two or more warehouses (*or destinations*)
+
+### Geographical Information Systems
+
+**geographical information systems**: a system of computer software, hardware, and data that the firm's personnel can use to manipulate, analyze, and present information relevant to a location decision
+
+* Can be used to:
+  * store databases
+  * display maps
+  * create models that information from existing datasets, apply analytic functions and write results into newly derived datasets
+* Useful because it can help companies makes decisions that have a geographical aspect
+* The frame work used locate multiple facilities with the use of GIS is:
+  1. Map the data for existing customers and facilities in the GIS.
+  2. Visually split the entire operating area in the number of parts or subregions that equal the number of facilities to be located.
+  3. Assign a facility location for each region based on the visual density of customer concentration or other factors. Alternately, determine the center of gravity for each part identified in step 2 as the starting location point for the facility in that subregion.
+  4. Search for alternate sites around the center of gravity to to pick a feasible location that meets management's criteria such as environmental issues, availability to major metropolitan areas, or proximity to highways.
+  5. Compute total load-distance scores and perform capacity checks before finalizing the locations for each region.
+
+### Inventory Placement
+
+**centralized placement**: keeping all the inventory of a product at a single location such as at a firm's manufacturing plant or a warehouse and shipping directly to each of its customers
+
+* Lowers the inventory pooling because demands are consolidated to one location.
+  * **inventory pooling**: a reduction in inventory and safety stock because of the merging of variable demands from customers
+
+**forward placement**: locating stock closer to customers at a warehouse, distribution center, wholesaler, or retailer
