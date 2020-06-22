@@ -150,3 +150,29 @@ Avoid the following seven mistakes when managing processes:
    * Only matters if the redesigned process is actually implemented.
 7. Not creating an infrastructure for continuous process improvement
    * Is anyone checking if anticipated benefits of a redesigned process are actually being realized?
+
+## Chapter 3: Quality and Performance
+
+### Costs of Quality
+
+**defect**: any instance when a process fails to satisfy its customer
+
+* "Any that happened that should not have happened and that one does not want to happen again"
+
+The costs of quality can be broken down into four categories:
+
+* **prevention costs**: costs associated with preventing defects before they happen
+  * Includes redesigning the process to remove the causes of poor performance, redesigning the service/product to make it simpler to produce, training employees in the process of continuous improvement
+  * Investment in areas of product or service requirements, quality planning, quality assurance, and training
+* **appraisal costs**: costs incurred when the firm assesses the performance level of its processes
+  * Some examples include verification, quality audits, and supplier rating
+* **internal failure costs**: costs resulting from defects that are discovered during the production of a service or product
+  * Typically falls in to three main categories:
+    * rework or rectification
+    * scrap - incurred if a defective item is unfit for further processing and cannot be repaired, used or sold
+    * Waste - involves performance of unnecessary work or holding stock as a result of errors or poor communication and organization
+* **external failure costs**: costs that arise when a defect is discovered after the customer receives the service or product
+  * Certainly erodes market share and profits because dissatisfied customers will talk about bad service to their friends, who in turn tell others.
+  * Examples include repairs and servicing, complaints, returns, warranty service and litigation costs
+  * **warranty**: a written guarantee that the producer will replace or repair defective parts or perform the service to the customer's satisfaction
+

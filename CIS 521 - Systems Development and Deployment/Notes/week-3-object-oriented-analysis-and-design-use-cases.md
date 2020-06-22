@@ -44,6 +44,8 @@ Use cases are defined as subject-verb.
 * **stakeholder**: people who have a vested interest in the system being developed
 * **preconditions**: things that must be true before a use case can start (no outstanding debts)
 * **minimal guarantee**: least amount promised to the stakeholder by a use case (rollback)
+  * A way to determine this is to ask "What would make the stakeholder unhappy?"
 * **success guarantee**: what must happen to effectively satisfy stakeholders
 * **trigger**: event that initiates a use case (phone call or even another use case)
-* **extension**: set of behaviors or functions in a use case that follow exceptions to the main success scenario (i.e. providing wrong username or password)
+* **extension**: set of behaviors or functions in a use case that follow exceptions to the main success scenario (i.e. providing wrong user name or password)
+  * The *else* statement that follows an *if* statement
