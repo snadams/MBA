@@ -175,4 +175,132 @@ The costs of quality can be broken down into four categories:
   * Certainly erodes market share and profits because dissatisfied customers will talk about bad service to their friends, who in turn tell others.
   * Examples include repairs and servicing, complaints, returns, warranty service and litigation costs
   * **warranty**: a written guarantee that the producer will replace or repair defective parts or perform the service to the customer's satisfaction
+  
+There are costs that go beyond out-of-pocket costs associated with the four previous.
 
+**ethical failure costs**: societal and monetary costs associated with deceptively passing defective services or products to internal or external customers such that it jeopardizes the well-being of stockholders, customers, employees, partners, and creditors
+
+* punitive costs of litigation once lapses are discovered
+* damage corporate image which is difficult to repair
+
+### Total Quality and Six Sigma
+
+**total quality management (TQM)**: a philosophy that stresses three principles by achieving high levels of process performance and quality:
+
+1. customer satisfaction
+   * Satisfied when their expectation regarding a product is met.
+   * **quality**: a term used by customers to describe their general satisfaction with a service or product
+   * This means fulfilling one or more of the following dimensions:
+     * *Conformance to specification*.
+     * *Value.* Does the product serve its intended purpose well enough to justify price?
+     * *Fitness for use*. Convenience, physical features (appearance, style, durability, etc.)
+     * *Support*.
+     * *Psychological impressions*. Image, atmosphere, or aesthetics
+2. employee involvement
+   * A program in employee involvement usually includes:
+     * *Cultural change*.
+       * Even if one is only serving internal customers, that job must be done with quality to pass the value to any external customers.
+       * **quality at the source**: a philosophy whereby defects are caught and corrected where they were created
+         * Avoid trying to "inspect quality into the product" where inspectors are expected to weed out unsatisfactory products.
+     * *Teams*. Small groups of people who have a common purpose, set their own performance goals and approaches, and hold themselves accountable for success.
+       * Three approaches to teams are problem-solving, special-purpose, and self-managed.
+       * **employee empowerment**: an approach to teamwork that moves responsibility for decisions further down the org chart -- to the level of the employee actually doing the job
+         * All approaches use some amount of employee empowerment.
+3. continuous improvement in performance
+   * **continuous improvement**: the philosophy of continually seeking ways to improve processes based on a Japanese concept called *kaizen*
+   * Involves identifying benchmarks of excellent practice and installing a sense of employee ownership in the process
+   * Relies on the belief that any aspect of a process can be approved and the people closely associated are the best to identify changes that should be made
+   * **plan-do-study-act cycle**: a cycle, also called the Deming wheel, used by firms actively engaged in continuous
+
+**Six Sigma**: a comprehensive and flexible system for achieving, sustaining, and maximizing business success by minimizing defects and variability in processes
+
+* Was rooted in improving manufacturing processes, but now used in other processes as well (sales, human resources, customer service, etc.)
+
+### Acceptance Sampling
+
+**acceptance sampling**: the application of statistical techniques to determine whether a quantity of material should be accepted or rejected based on the inspection or test of a sample
+
+**acceptance quality level (AQL)**: the quality level desired by the consumer
+
+### Statistical Process Control
+
+**statistical process control (SPC)**: the application of statistical techniques to determine whether a process is delivering what the customer wants
+
+* Tools called control charts are used primarily to detect defective services or products or to indicate that the process has changed and that services/products have deviated from their design specifications.
+* Performance can be evaluated in two ways: 
+  * **variables**: service or product characteristics, such as weight, length, volume, or time, that can be measured. *Continuous*.
+  * **attributes**: service or product characteristics that can be quickly counted for acceptable performance. *Discrete*.
+* Takes less effort to measure attributes than variables. Issue is that it can indicate process performance has changed but not by how much.
+* The most thorough approach to inspection is complete inspection, but because of the expense is only used when the costs of passing defects to the customer outweigh the inspection costs.
+* Sampling allows you to approach the protection of a complete inspection without the cost.
+  * **sampling plan**: a plan that specifies a sample size, the time between successive samples, and the decision rules that determine when action should be taken
+  * **sample size**: a quantity of randomly selected observations of process outputs
+* **common causes of variation**: the purely random, unidentifiable sources of variation that are unavoidable with the current process
+  * If process variability results solely from common causes of variation, the distribution would typically be *symmetric*, with most observations near the center.
+* **assignable causes of variation**: any variation-causing factors that can be identified and eliminated, also known as *special causes*
+
+![img](images/assignable-causes-of-variation.png)
+
+**control chart**: a time-ordered diagram that is used to determine whether observed variations are abnormal
+
+* Have control limits to determine whether action is required
+  * Upper control limit (UCL)
+  * Lower control limit (LCL)
+* Objects within the limits are in *statistical control*
+* Control charts aren't perfect.
+  * **type I error**: occurs when the employee concludes that the process is out of control based on a sample result that falls outside of the control limits, when in fact was due to pure randomness
+  * **type II error**: occurs when the employee concludes that the process is in control and only randomness is present, when actually the process is out of statistical control
+
+#### Control Charts for Variables
+
+**R-chart**: a chart used to monitor process variability
+
+* subtracts the smallest from the largest measurement in each sample
+* Control limits for the R-chart are:
+
+  <img src="https://render.githubusercontent.com/render/math?math=UCL_R=D_4\overline{R}\ and\ LCL_R=D_3\overline{R}">
+
+  * R-bar average of several past R values and the central line of the control chart
+
+**X-bar chart**: a chart used to see whether the process is generating output, on average, consistent with a target value set by management for the process or whether its current performance, with respect to the average of the performance measure, is consistent with past performance
+
+* Target value is useful when process is completely redesigned and past performance is no longer relevant.
+* Control limits for the x-bar chart are:
+
+  <img src="https://render.githubusercontent.com/render/math?math=UCL_{\overline{x}}=\overline{\overline{x}}%2bA_2\overline{R}\ and\ LCL_{\overline{x}}=\overline{\overline{x}}-A_2\overline{R}">
+
+  * x-double bar represents the central line of the chart (i.e. average of past sample means or target value set for chart)
+
+#### Control Charts for Attributes
+
+**p-chart**: a chart used for controlling the proportion of defective services or products generated by the process
+
+* Sampling for a p-chart involves a *yes or no* decision. The output either is or is not defective.
+* The standard deviation of the distribution of proportion defectives is:
+
+  <img src="https://render.githubusercontent.com/render/math?math=\sigma_p=\sqrt{\frac{\overline{p}(1-\overline{p})}{n}}">
+
+  * n = sample size
+  * p-bar = central line on the chart, which can be either the historical average population proportion defective or a target value
+* Can use the standard deviation of the distribution of proportion defectives to for UCL and LCL:
+
+  <img src="https://render.githubusercontent.com/render/math?math=UCL_p=\overline{p}%2bz\sigma_p\ and\ LCL_p=\overline{p}-z\sigma_p">
+
+  * z = normal deviate (number of standard deviations from the average)
+
+**c-chart**: a chart used for controlling the number of defects when more than one defect can be present in a service or product
+
+* Underlying sampling distribution is the Poisson distribution.
+
+  <img src="https://render.githubusercontent.com/render/math?math=UCL_c=\overline{c}%2bz\sqrt{\overline{c}}\ and\ LCL_c=\overline{c}-z\sqrt{\overline{c}}">
+
+  * c-bar = mean of the distribution
+  * std. dv. = square root of c-bar
+
+### Process Capability
+
+**process capability**: the ability of the process to meet the design specifications for a service or product
+
+**nominal value**: a target for design specifications
+
+**tolerance**: an allowance above or below the nominal value
