@@ -74,7 +74,7 @@ Some work measurement methods include:
 * Unlike flowcharts, it requires the time estimates.
 * The activities for typical process can be boiled down into five categories:
   * operation - changes, creates, or adds something
-  * transportation - moves the study's subject from one place to another
+  * transportation - moves the studies' subject from one place to another
   * inspection - checks or verifies something but does not change it
   * delay - occurs when the subject is held up awaiting further action
   * storage - occurs when something is put away until a later time
@@ -227,7 +227,7 @@ There are costs that go beyond out-of-pocket costs associated with the four prev
 **statistical process control (SPC)**: the application of statistical techniques to determine whether a process is delivering what the customer wants
 
 * Tools called control charts are used primarily to detect defective services or products or to indicate that the process has changed and that services/products have deviated from their design specifications.
-* Performance can be evaluated in two ways: 
+* Performance can be evaluated in two ways:
   * **variables**: service or product characteristics, such as weight, length, volume, or time, that can be measured. *Continuous*.
   * **attributes**: service or product characteristics that can be quickly counted for acceptable performance. *Discrete*.
 * Takes less effort to measure attributes than variables. Issue is that it can indicate process performance has changed but not by how much.
@@ -304,3 +304,13 @@ There are costs that go beyond out-of-pocket costs associated with the four prev
 **nominal value**: a target for design specifications
 
 **tolerance**: an allowance above or below the nominal value
+
+**process capability index**: an index that measures the potential for a process to generate defective outputs relative to either upper or lower specifications
+
+<img src="https://render.githubusercontent.com/render/math?math=c_{pk}=Minimum\ of\ [\frac{\overline{\overline{x}}-Lower\ specification}{3\sigma},\frac{Upper\ specification-\overline{\overline{x}}}{3\sigma}]">
+
+* sigma = standard deviation of the process distribution
+
+**process capability ratio**: the tolerance width divided by 6 standard deviations
+
+<img src="https://render.githubusercontent.com/render/math?math=c_p=\frac{Upper\ specification-Lower\ specification}{6\sigma}">
