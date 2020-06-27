@@ -14,3 +14,19 @@
 ![img](images/bpmn-symbols.png)
 
 ![img](images/simple-bpmn-example.png)
+
+Components of a business process model include:
+
+* **event**: a trigger that initiates the start of a process
+* **activity**: an action that must take place for process to be completed
+* **gateway**: a decision point
+* **flow**: the sequence of action in a process
+
+**swimlane**: a way to visually encapsualte a process
+
+* can be depicted either vertically or voertically.
+* Whether a swimlane is used the diagram shows only once process with one actor. 
+
+**pool**: a way to encapsulate a process that has two or more participants
+
+![img](images/complex-bpmn.png)
