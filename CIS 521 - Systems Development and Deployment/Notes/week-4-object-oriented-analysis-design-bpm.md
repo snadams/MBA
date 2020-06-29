@@ -10,7 +10,7 @@
 * branch = denotes a choice (diamond)
 * merge = the point at which possible actions join together  (diamond)
 * fork = where parallel activities stem from
-* join = two processes joining together, independent streams coming 
+* join = two processes joining together, independent streams coming
 
 ![img](images/activity-diagram-symbols.png)
 
