@@ -6,6 +6,17 @@
 
 * Used to depict the flow of control from activity to activity
 * Help identify extensions in  use case
+* Designed to show conditional logic
+* branch = denotes a choice (diamond)
+* merge = the point at which possible actions join together  (diamond)
+* fork = where parallel activities stem from
+* join = two processes joining together, independent streams coming 
+
+![img](images/activity-diagram-symbols.png)
+
+Below is a basic activity diagram:
+
+![img](images/basic-activity-diagram.png)
 
 ## Chapter 7C: Business Process Modeling
 
@@ -22,10 +33,10 @@ Components of a business process model include:
 * **gateway**: a decision point
 * **flow**: the sequence of action in a process
 
-**swimlane**: a way to visually encapsualte a process
+**swimlane**: a way to visually encapsulate a process
 
-* can be depicted either vertically or voertically.
-* Whether a swimlane is used the diagram shows only once process with one actor. 
+* can be depicted either vertically or vertically.
+* Whether a swimlane is used the diagram shows only once process with one actor.
 
 **pool**: a way to encapsulate a process that has two or more participants
 
