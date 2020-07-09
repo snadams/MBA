@@ -470,7 +470,8 @@ Advantages of the Q System include:
 
 #### Calculating Total P System Costs
 
-<img src="https://render.githubusercontent.com/render/math?math=C=\frac{\overline{d}P}{2}(H)%2b \frac{D}{\overline{d}P}(S)%2b(H)(Safety\ stock)">
+
+> $$ C={\overline{d}P\over 2}(H)+{D\over \overline{d}P}(S)+(H)(Safety\ stock)$$
 
 Advantages of the P system are:
 
@@ -524,10 +525,12 @@ Advantages of the P system are:
 
 * Express the measure at cost so you can include raw materials, WIP, and finished goods.
 
-<img src="https://render.githubusercontent.com/render/math?math=Average\ aggregate\ inventory\ value=(Number\ of\ units\ of\ item\ A\ typically\ on\ hand)(Value\ of\ each\ item\ A)%2b(Number\ of\ units\ of\ item\ B\ typically\ on\ hand)(Value\ of\ each\ item\ B">
+> $$Average\ aggregate\ inventory\ value=(Number\ of\ units\ of\ item\ A\ typically\ on\ hand)(Value\ of\ each\ item\ A) + (Number\ of\ units\ of\ item\ B\ typically\ on\ hand)(Value\ of\ each\ item\ B) $$
 
 **weeks of supply**: an inventory measure obtained by dividing the average aggregate inventory value by sales per week at cost
 
-<img src="https://render.githubusercontent.com/render/math?math=\Weekly\ sales=\frac{Average\ aggregate\ inventory\ value}{Weekly\ sales\ (at\ cost)}">
+> $$Weekly\ Sales={Average\ aggregate\ inventory\ value\over Weekly\ sales\ (at\ cost)}$$
 
 **inventory turnover**: an inventory measure obtained by dividing annual sales at cost by the average aggregate inventory value maintained during the year
+
+$$Inventory\ turnover={Annual\ Sales\ (at\ cost)\over Average\ aggregate\ inventory\ value}$$
