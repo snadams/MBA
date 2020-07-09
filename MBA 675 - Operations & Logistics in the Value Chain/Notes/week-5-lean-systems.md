@@ -470,8 +470,7 @@ Advantages of the Q System include:
 
 #### Calculating Total P System Costs
 
-
-> $$ C={\overline{d}P\over 2}(H)+{D\over \overline{d}P}(S)+(H)(Safety\ stock)$$
+<img src="https://render.githubusercontent.com/render/math?math=C=\frac{\overline{d}P}{2}(H)%2b \frac{D}{\overline{d}P}(S)%2b(H)(Safety\ stock)">
 
 Advantages of the P system are:
 
@@ -525,12 +524,76 @@ Advantages of the P system are:
 
 * Express the measure at cost so you can include raw materials, WIP, and finished goods.
 
-> $$Average\ aggregate\ inventory\ value=(Number\ of\ units\ of\ item\ A\ typically\ on\ hand)(Value\ of\ each\ item\ A) + (Number\ of\ units\ of\ item\ B\ typically\ on\ hand)(Value\ of\ each\ item\ B) $$
+<img src="https://render.githubusercontent.com/render/math?math=Average\ aggregate\ inventory\ value=(Number\ of\ units\ of\ item\ A\ typically\ on\ hand)(Value\ of\ each\ item\ A)%2b(Number\ of\ units\ of\ item\ B\ typically\ on\ hand)(Value\ of\ each\ item\ B">
 
 **weeks of supply**: an inventory measure obtained by dividing the average aggregate inventory value by sales per week at cost
 
-> $$Weekly\ Sales={Average\ aggregate\ inventory\ value\over Weekly\ sales\ (at\ cost)}$$
+<img src="https://render.githubusercontent.com/render/math?math=\Weekly\ sales=\frac{Average\ aggregate\ inventory\ value}{Weekly\ sales\ (at\ cost)}">
 
 **inventory turnover**: an inventory measure obtained by dividing annual sales at cost by the average aggregate inventory value maintained during the year
 
-$$Inventory\ turnover={Annual\ Sales\ (at\ cost)\over Average\ aggregate\ inventory\ value}$$
+<img src="https://render.githubusercontent.com/render/math?math=Inventory\ turnover=\frac{Annual\ sales\ (at\ cost)}{Average\ aggregate\ inventory\ value}">
+
+#### Financial Measures
+
+Supply chain can affect a variety of financial measures including:
+
+* *Total revenue*.
+  * Increasing percent of on-time deliveries will increase total revenue because satisifed customers buy more from the firm.
+* *Cost of goods sold*.
+  * Having the ability to buy materials at a better price and transform them into services or products improves COGS.
+* *Operating expenses*.
+  * Designing a supply chain with minimal capital investment can reduce depreciation charges.
+* *Cash flow*.
+  * Can increase cash flow by reducing lead times and backlogs of orders.
+  * *Cash-to-cash* is the time lag between paying for the services and materials need to produce a service/product and receiving payment for it.
+    * Goal is to have negative cash-to-cash situation, meaning customer pays for service before the firm has to pay for resources. Requires having supplier inventories on consignment, allow them to pay as they use.
+* *Working capital*. Money used to finance ongoing operations.
+  * Decreasing weeks of supply or increasing inventory turns reduces the working capital needed to finance inventories.
+* *Return on assets*.
+
+### Strategic Options for Supply Chain Design
+
+#### Efficient Supply Chains
+
+* Work best in environments where demand is highly predictable, such as demand for staple items purchased at a grocery store
+* The one popular design for efficient supply chains is *make-to-stock*.
+  * Product is built to a sales forecast and sold to the fustomer from a finished goods stock.
+  * User has no individual inputs into the configuration of the product.
+
+#### Responsive Supply Chains
+
+* Are designed to react quickly to hedge against uncertainties in demand. Work best when firms offer a great variety of services or prodcuts and demand predictability is low.
+* Common designs include:
+  * *Assemble-to-order (ATO)*.
+    * Built to customer specifications from a stock of existing components.
+    * i.e. Dell's approach to customizing desktops and laptops.
+    * Material flows are on an "as needed" basis.
+  * *Make-to-order (MTO)*.
+    * Product is based on a standard design, however component production and manufacture of the final product is linked to the customer specifications.
+    * i.e. custom-made clothing, predesigned houses, commercial aircraft
+  * *Design-to-order (DTO)*.
+    * Product is designed and built entirely to the customer's specifications.
+    * i.e. large construction projects, women's designer dresses, custom-made man's suits, orginal architecture house construction
+* Typical competitive priorities for these supply chains are development speed, fast delivery times, customization, variety, volume flexibility, and top quality.
+
+Companies may need to use both types of supply chains, especially when it focuses on operations in specific market segments. There may even be mixed elments. Anything to achieve optimal performance.
+
+| Factor | Efficient Supply Chains | Responsive Supply Chains |
+| --- | --- | --- |
+| Operation strategy | MTS standardized services or products; emphasize high volumes | ATO, MTO, DTO customized services or products; emphasize variety |
+| Capacity cushion | Low | High |
+| Inventory investment | Low; enable high inventory turns | As needed to enable fast delivery time | 
+| Lead time | Shorten, but do not increase costs | Shorten aggressively |
+| Supplier selection | Emphasize low prices, consistent quality, on-time delivery | Emphasize fast delivery time, customization, variety, volume, top flexibility, quality |
+
+### Mass Customization
+
+**mass customization**: a strategy where a firm's highly divergent processes generate a wide variety of customized services or products at reasonably low costs.
+
+This has three important competitive advantages:
+
+1. *Managing customer relationships*.
+   * Firms can learn a lot from customers based on the data it receives from customers providing inputs.
+2. *Eliminating finished goods inventory*.
+3. *Increasing perceived value of services or products*.
