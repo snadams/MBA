@@ -171,3 +171,363 @@ While there are numerous benefits, issues do arise form the implementation of a 
   * Sometimes difficult to attain short setup times needed for smaller lot sizes.
 * *Purchasing and logistics*.
   * Shipments must be reliable because low inventory. Plant could be shut down because of a lack of materials.
+
+## Chapter 9: Inventory Management
+
+**inventory management**: the planning and controlling of inventories to meet the competitive priorities of the organization
+
+**lot sizing**: the determination of how frequently and in what quantity to order inventory
+
+**lot size**: the quantity of an inventory item that management either buys from a supplier or manufactures using internal processes
+
+### Inventory Trade-offs
+
+**inventory**: a stock of materials used to satisfy customer demand or to support the production of services or goods
+
+* Inward flow represents the input flow of materials.
+* Outward flow represents for demand for materials in inventory (i.e. a bike for Huffy or services)
+* The rate of the outward flow reflects the ability of the firm to match the demand for services or products.
+* The difference between input flow rate and the output flow rate determines the level of inventory (level of water in bucket).
+
+  ![img](images/inventory-bucket.png)
+
+An inventory manager's job is to balance the advantages and disadvantages of both small and large inventories and find a happy medium.
+
+**inventory holding cost**: the sum of the cost of capital and the variable costs of keeping items on had, such as storage and handling, taxes, insurance, and shrinkage
+
+* Also known as carrying cost
+* The components of holding cost can create pressures to have small inventories.
+  * *Cost of capital*. The opportunity cost of investing in an asset relative to the expected return on assets of a similar risk.
+  * *Storage and handling costs*. Incurred when a firm could use storage space productively in some other way.
+  * *Taxes, insurance, and shrinkage*.
+    * More taxes are paid if end-of-year inventories are high and cost of insurance increases too.
+    * Shrinkage examples include:
+      * *pilferage*: theft of inventory by customers or employees
+      * *obsolescence*: inventory cannot be used or sold at full value (i.e due to model changes, engineering modifications, or low demand like seasonal clothing)
+      * *deterioration*: physical spoilage or damage resulting in lost value (i.e. food and beverages)
+* It can also can create pressures to have large inventories.
+  * *Customer service*.
+    * Customers do not like waiting for backorders to be filled and may cause them to go elsewhere.
+  * *Ordering cost*. The cost of preparing a purchase order for supplier or a production order for manufacturing.
+    * Independent of size of order which creates pressure to make larger orders.
+  * *Setup cost*. The cost involved in changing over a machine or workspace to produce a different item.
+    * Independent of size of order which creates pressure order a large supply and hold it in inventory.
+  * *Labor and equipment utilization*.
+  * *Transportation cost*.
+  * *Payments to suppliers*.
+    * **quantity discount**: a drop in the price per unit when an order is sufficiently large
+
+### Types of Inventory
+
+#### Accounting Inventories
+
+Inventory exists in three aggregate categories for accounting purposes:
+
+* **raw materials (RM)**: the inventories needed for the production of services or goods
+* **work-in-process (WIP)**: items, such as components or assemblies, needed to produce a final product in manufacturing or service operations
+* **finished goods (FG)**: the items in manufacturing plants, warehouses, and retail outlets that are sold to the firm's customers
+  * Could be the raw materials for another firm.
+
+One must also understand the nature of demand they experience:
+
+* **independent demand items**: items for which demand is influenced by market conditions and is not related to the inventory decisions for any other item held in stock or produced
+  * Difficult to maintain because is influenced by external factors.
+  * Examples include:
+    * wholesale and retail merchandise
+    * service support inventory, such as stamps and mailing labels for post offices
+    * product and replacement-part distribution inventories
+    * Maintenance, repair, and operating (MRO) supplies (i.e. employee uniforms, fuel, paint, and machine repair parts)
+* **dependent demand items**: items whose required quantity varies with the production plans for other items held in the firm's inventory
+  * Consists of raw materials and WIP
+  * Should be calculated not forecasted
+
+#### Operational Inventories
+
+Inventory can be classified by how it is created, specifically:
+
+1. **cycle inventory**: the portion of total inventory that varies directly with lot size
+   * Lot size (Q) varies directly with the elapsed time (or cycle) between orders. If a lot is ordered every 5 weeks, the average lot size must equal 5 weeks demand.
+   * The longer the time between orders for a given item, the greater the cycle inventory must be.
+   * The following formula is exact only when demand rate is constant and uniform, but provides a reasonably good estimate otherwise
+
+  <img src="https://render.githubusercontent.com/render/math?math=Average\ cycle\ inventory=\frac{Q}{2}">
+
+2. **safety stock inventory**: surplus inventory that a company holds to protect against uncertainties in demand, lead time, and supply changes
+   * Desirable when suppliers fail to deliver the desired quantity on a specified date or when manufactured items require significant amounts of scrap or rework
+3. **anticipation inventory**: inventory used to absorb uneven rates of demand or supply
+   * Typical with predictable, seasonal demand patterns
+   * Can also help when suppliers are threatened with a strike or have sever capacity limitations
+4. **pipeline inventory**: inventory that is created when an order for an item is issued but not yet received
+   * The average pipeline inventory is equal to the average demand during lead time (D), which is the average demand per period (d) multiplied by the number of periods in the item's lead time (L).
+
+  <img src="https://render.githubusercontent.com/render/math?math=Pipeline\ inventory=\overline{D}_L=\overline{d}L">
+
+### Inventory Reduction Tactics
+
+* Cycle Inventory
+  * Primary lever is to reduce the lot sizes of items moving in the supply chain. Dangerous to do without out making other changes. Secondary levers are:
+    * Streamline the methods for placing orders and making setups to reduce ordering and setup costs and allow Q to be reduced.
+    * Increase **repeatability* (the degree to which thee same work can be done again).
+* Safety Stock Inventory
+  * Primary lever is to place orders closer to the time when they must be received. Can lead to unacceptable customer service, unless demand, supply, and delivery uncertainties are minimized. Secondary levers include:
+    * Improve demand forecasts so that fewer surprises come from customers. Increase collaboration with customers.
+    * Cut the lead times of purchased or produced items to reduce demand uncertainty.
+    * Reduce supply uncertainties. Suppliers are more likely to be reliable if production plans are shared with them. Increase collaboration with suppliers.
+    * Rely more on equipment and labor buffers, such as capacity cushions and cross-trained workers.
+* Anticipation Inventory
+  * Primary lever is to match demand rate with production rate. Secondary levers include:
+    * Add new products with different demand cycles so that a peak in the demand in one product compensates for the seasonal low for another.
+    * Provide off-season promotional campaigns.
+    * Offer seasonal pricing plans.
+* Pipeline Inventory
+  * Primary lever is to reduce the lead time. Secondary levers include:
+    * Find more responsive suppliers and select new carriers for shipments between stocking locations or improve material handling within the plant.
+    * Change Q in those cases where the lead time depends on the lot size.
+
+### ABC Analysis
+
+**stock-keeping unit (SKU)**: an individual item or product that has an identifying code and is held in inventory somewhere along the supply chain
+
+**ABC analysis**: the process of dividing SKUs into three classes, according to their dollar usage, so that managers can focus on items that have the highest dollar value
+
+* Equivalent to creating a pareto chart but applied to inventory rather than errors
+* In the following example, class A SKUs would have the highest amount of inventory control, B with the intermediate, C with the loosest.
+  * Class A makes up 10% of items and accounts for 75% of dollar usage.
+  * Class B makes up 20% of items and accounts for 20% of dollar usage.
+  * Class C makes up 70% of items and accounts for 5% of dollar usage.
+
+  ![img](images/abc-analysis.png)
+
+* **cycle counting**: an inventory control method, whereby storeroom personnel physically count a small percentage of the total number of items each day, correcting errors that they find
+  * Class A SKUs would be counted most frequently.
+
+### Economic Order Quantity
+
+**economic order quantity (EOQ)**: the lot size that minimizes total annual inventory holding and ordering costs
+
+* EOQ is optimal when the following five assumptions are satisfied:
+  * The demand rate for the item is always constant (i.e. always 10 units per day) and known with certainty.
+  * No constraints are placed on the size of each lot (i.e. truck capacity).
+  * The only two relevant costs are the inventory holding cost and the fixed cost per lot for ordering or setup.
+  * Decisions for one item can be made independently of decision for other items. (i.e. no advantage in combining several orders going to the same supplier)
+  * The lead time is constant and known with certainty.
+* Rarely, however are all the assumptions met. Here are some guidelines on when to use or modify the EOQ:
+  * **Do not use the EOQ**
+    * If you use the "make-to-order" strategy and your customer specifies that the entire order be delivered in one shipment.
+    * If the order size is constrained by capacity limitations such as the size of the firm's ovens, amount of testing equipment, or number of delivery trucks.
+  * **Modify the EOQ**
+    * If significant quantity discounts are given for ordering larger lots.
+    * If replenishment of the inventory is not instantaneous.
+  * **Use the EOQ**
+    * If you follow a "make-to-stock" strategy and the item has relatively stable demand.
+    * If your carrying costs per unit and setup or ordering costs are known and relatively stable.
+
+To calculate EOQ, you must do the following:
+
+* Formulate the total cost for any lot size Q for a given SKU
+  * Total cost = annual holding cost + Annual ordering or setup cost
+
+    <img src="https://render.githubusercontent.com/render/math?math=C=\frac{Q}{2}(H)%2b\frac{D}{Q}(s)">
+
+    * C = total annual cycle-inventory cost
+    * Q = lot size, in units
+    * H = cost of holding one unit in inventory for a year, often expressed as a percentage of the item's value
+    * D = annual demand, in units per year
+    * S = cost of ordering or setting up one lot, in dollars per lot
+* Derive EOQ, which is the Q that minimizes total annual cycle-inventory cost.
+
+  <img src="https://render.githubusercontent.com/render/math?math=EOQ=\sqrt{\frac{2DS}{H}}">
+
+* We can convert EOQ, to find the elapsed time between orders.
+  * **time between orders (TBO)**: the average elapsed time between receiving (or placing) replenishment orders of Q units for a particular lot size
+  * The following shows TBO expressed in months.
+
+    <img src="https://render.githubusercontent.com/render/math?math=TBO_{EOQ}=\frac{EOQ}{D}(12\ months/year)">
+
+  There are some insights that can be gleaned from subjecting the EOQ formula to *sensitivity analysis*, a technique for systematically changing crucial parameters to determine the effects of a change.
+
+  * When demand increases, EOQ increases.
+  * When order/setup costs decrease, EOQ decreases.
+  * When holding costs decreases, EOQ increases. Larger lots can be justified.
+
+### Continuous Review System
+
+**continuous review (Q) system**: a system designed to track the remaining inventory of a SKU each time a withdrawal is made to determine whether it is time to reorder
+
+* also known as reorder point (ROP) system
+* Usually done daily or continuously (made easily with cash registers and computers linked to inventory records)
+
+**inventory position (IP)**: the measurement of a SKU's ability to satisfy future demand
+
+**scheduled receipts (SR)**: orders that have been placed but have not yet been received, sometimes called open orders
+
+**reorder point (R)**: the predetermined minimum level that an inventory position must reach before a fixed quantity Q of the SKU is ordered
+
+* Q can be based on:
+  * EOQ
+  * price break quantity - the minimum lot size that qualifies for a quantity discount
+  * container size (i.e. a truckload)
+  * Any other quantity selected by management
+* Selecting reorder point when demand and lead time are constant
+  * If inventory position (scheduled receipts + on hand) exceeds R (total demand during lead time), do not reorder.
+* Selecting reorder point when demand is variable and lead time is constant
+  * Often leads to managers adding safety stock because demands are unpredictable and backorders or stockouts can occur
+  * Reorder point = Average demand during lead time + Safety stock
+
+    <img src="https://render.githubusercontent.com/render/math?math=Reorder\ point=\overline{d}L%2b safety\ stock">
+  
+  * Choice is between small or large safety stocks (tradeoff between customer customer service and inventory holding costs)
+  * Steps to arrive at a reorder point are:
+    1. Choose an appropriate service-level policy.
+         * **service level**: the desired probability of not running out of stock in any one ordering cycle, which begins at the time an order is placed and ends when it arrives in stock, also known cycle-service level
+         * The intent is to provide **protection interval** (the period over which safety stock must protect the user from running out of stock).
+         * i.e. if a bookstore manager selects a 90% cycle-service for a book, there is a probability of 10% that the book will result in  a stockout or backorder during the protection interval.
+    2. Determine the distribution of demand during lead time.
+        * If demand and lead times vary little around their averages, the safety stock can be small. If not, they must be large.
+
+          <img src="https://render.githubusercontent.com/render/math?math=\sigma_{dLT}=\sqrt{\sigma^2_dL}=\sigma_d\sqrt{L}">
+
+    3. Determine the safety stock and reorder point levels.
+
+        <img src="https://render.githubusercontent.com/render/math?math=Safety\ stock=z\sigma_{dLT}">
+
+        * z = the number of standard deviations needed to achieve the cycle-service level
+        * sigma = standard deviation of demand during the lead time
+
+        <img src="https://render.githubusercontent.com/render/math?math=R=\overline{d}L%2bsafety\ stock">
+
+* Selecting the reorder point when both demand and lead time are variable
+  * In the safety stock equation, the following simplifying equations are made:
+    * Demand distribution and lead time distribution are measured in the same time units.
+    * Demand and lead time are independent.
+
+  * <img src="https://render.githubusercontent.com/render/math?math=Safety\ stock=\zeta\sigma_{dLT}">
+
+  * R = (Average weekly demand X Average lead time in weeks) + Safety Stock
+  
+    <img src="https://render.githubusercontent.com/render/math?math=R=\overline{dL}%2bsafety\ stock">
+
+    * d = average weekly or daily or monthly demand
+    * L = average weekly or daily or monthly lead time
+    * sigma_d = standard deviation of weekly or daily or monthly demand
+    * sigma_LT = standard deviation of the lead time
+
+    <img src="https://render.githubusercontent.com/render/math?math=\sigma_{dLT}=\sqrt{\overline{L}\sigma^2_d%2b\overline{d}^2\sigma^2_{LT}}">
+
+#### Systems Based on the Q System
+
+**visual system**: a system that allows employees to place orders when inventory visibly reaches a certain marker
+
+* **two-bin system**: a visual system version of the Q system in which a SKU's inventory is stored at two different locations
+  * Inventory is first withdrawn from one bin and when it is empty, the second bin provides backup to cover demand until a replenishment order arrives.
+  * The second bin serves as the reorder point.
+
+**base-stock system**: an inventory control system that issues a replenishment order, Q, each time a withdrawal is made, for the same amount of the withdrawal
+
+* Appropriate for expensive items such as replacement engines for jet airplanes. No more inventory is held than the maximum demand expected until a replacement order can be received.
+
+#### Calculating Total Q System Costs
+
+Total Cost = Annual cycle inventory holding cost + annual ordering cost + annual safety stock holding cost
+
+<img src="https://render.githubusercontent.com/render/math?math=C=\frac{Q}{2}(H)%2b \frac{D}{Q}(S)%2b(H)(safety\ stock)">
+
+Advantages of the Q System include:
+
+1. The review frequency of each SKU may be individualized, which can reduce total ordering and holding costs.
+2. Fixed lost sizes, if large enough can result in quantity discounts.
+3. The system requires low levels of safety stock for the amount of uncertainty in demands during the lead time.
+
+### Periodic Review System
+
+**periodic review (P) system**: a system in which an item's inventory position is reviewed periodically rather than continuously
+
+* Also known as fixed interval reorder system or periodic reorder system
+* At each reorder point, a supplier reviews the inventory restocks with enough items to meet demand and safety stock requirements until the next reorder point.
+* To run a P system, managers must make two decisions:
+  * the length of time between reviews (P)
+  * and the target inventory level (T)
+* Selecting the target inventory level when demand is variable and lead time is constant
+  * Target level is computed as
+
+    <img src="https://render.githubusercontent.com/render/math?math=T=\overline{d}(P%2bL)%2b\Safety\ stock\ for\ the\ protection\ interval">
+
+  * Safety stock is computed as
+
+    <img src="https://render.githubusercontent.com/render/math?math=Safety\ stock=z\sigma_{P%2bL}">
+
+  * Standard deviation is computed as
+
+    <img src="https://render.githubusercontent.com/render/math?math=\sigma_{P%2bL}=\sigma_d\sqrt{P%2bL}">
+
+#### Systems Based on P System
+
+**single-bin system**: a system of inventory control in which a maximum level is marked on the storage shelf or bin, and the inventory is brought up to the mark periodically
+
+* i.e. a gasoline storage stank or a storage bin for small parts at a manufacturing plant
+
+**optional replenishment system**: a system used to review the inventory position at fixed time intervals and, if the position has dropped to (or below) a predetermined level, to place a variable-sized order to cover expected needs
+
+#### Calculating Total P System Costs
+
+<img src="https://render.githubusercontent.com/render/math?math=C=\frac{\overline{d}P}{2}(H)%2b \frac{D}{\overline{d}P}(S)%2b(H)(Safety\ stock)">
+
+Advantages of the P system are:
+
+1. The system is convenient because replenishments are made at fixed intervals, which allows for standardized pickup and delivery times.
+2. Orders for multiple items from the same supplier can be combined into a single purchase order.
+3. The inventory position, IP, needs to be known only when a review is made (not continuously as in a Q system).
+   * This point is moot when one has a **perpetual inventory system** (a system of inventory control in which the inventory records are always current).
+
+## Chapter 12: Supply Chain Design
+
+**supply chain**: the interrelated series of processes within a firm and across different firms that produces a service or product to the satisfaction of customers
+
+### Creating an Effective Supply Chain
+
+#### Pressures for Supply Chain
+
+* *Dynamic sales volume*.
+  * How to meet the needs of volatile sales volumes?
+    * Usually involves excessive inventories, underutilized personnel, or more expensive delivery options.
+    * Sometimes called external sources like customers but could be internal like sales promotions.
+* *Customer service and equality expectations*.
+  * Marketing and sales team want to establish service levels to serve customers.
+* *Service/Product proliferation*.
+  * Adding more products and services adds complexity to the supply chain.
+  * Niche products typically have low volume meaning it costs more to produce, market, and deliver.
+* *Emerging markets*.
+  * Represent pools of new customers.
+  * Also as sources of labor or manufacturing can change at the drop of hat due to political or economic forces.
+
+#### Areas of Focus for an Effective Supply Chain
+
+1. Link services or products with internal processes.
+2. Link services or products with the external supply chain.
+3. Link services or products with customers, suppliers, and supply chain processes.
+
+**supply chain management**: the synchronization of a firm's processes with those of its suppliers and customers to match the flow of materials, services, and information with demand
+
+**supply chain design**: designing a firm's supply chain to meet the competitive priorities of the firm's operations strategy
+
+![img](images/supply-chain-efficiency-curve.png)
+
+* Blue line represents the efficiency curve, which shows the trade-off between costs and performance for the *current supply chain design* if the supply chain is operated as efficiently as it can be.
+* Red dot represents actual performance.
+  * Not uncommon to be off of the curve. Usually due to supply chain pressures mentioned above.
+
+### Measuring Supply Chain Performance
+
+#### Inventory Measures
+
+**average aggregate inventory value**: the total average value of all items held in inventory for a firm
+
+* Express the measure at cost so you can include raw materials, WIP, and finished goods.
+
+<img src="https://render.githubusercontent.com/render/math?math=Average\ aggregate\ inventory\ value=(Number\ of\ units\ of\ item\ A\ typically\ on\ hand)(Value\ of\ each\ item\ A)%2b(Number\ of\ units\ of\ item\ B\ typically\ on\ hand)(Value\ of\ each\ item\ B">
+
+**weeks of supply**: an inventory measure obtained by dividing the average aggregate inventory value by sales per week at cost
+
+<img src="https://render.githubusercontent.com/render/math?math=\Weekly\ sales=\frac{Average\ aggregate\ inventory\ value}{Weekly\ sales\ (at\ cost)}">
+
+**inventory turnover**: an inventory measure obtained by dividing annual sales at cost by the average aggregate inventory value maintained during the year
