@@ -539,7 +539,7 @@ Advantages of the P system are:
 Supply chain can affect a variety of financial measures including:
 
 * *Total revenue*.
-  * Increasing percent of on-time deliveries will increase total revenue because satisifed customers buy more from the firm.
+  * Increasing percent of on-time deliveries will increase total revenue because satisfied customers buy more from the firm.
 * *Cost of goods sold*.
   * Having the ability to buy materials at a better price and transform them into services or products improves COGS.
 * *Operating expenses*.
@@ -558,12 +558,12 @@ Supply chain can affect a variety of financial measures including:
 
 * Work best in environments where demand is highly predictable, such as demand for staple items purchased at a grocery store
 * The one popular design for efficient supply chains is *make-to-stock*.
-  * Product is built to a sales forecast and sold to the fustomer from a finished goods stock.
+  * Product is built to a sales forecast and sold to the customer from a finished goods stock.
   * User has no individual inputs into the configuration of the product.
 
 #### Responsive Supply Chains
 
-* Are designed to react quickly to hedge against uncertainties in demand. Work best when firms offer a great variety of services or prodcuts and demand predictability is low.
+* Are designed to react quickly to hedge against uncertainties in demand. Work best when firms offer a great variety of services or products and demand predictability is low.
 * Common designs include:
   * *Assemble-to-order (ATO)*.
     * Built to customer specifications from a stock of existing components.
@@ -571,19 +571,19 @@ Supply chain can affect a variety of financial measures including:
     * Material flows are on an "as needed" basis.
   * *Make-to-order (MTO)*.
     * Product is based on a standard design, however component production and manufacture of the final product is linked to the customer specifications.
-    * i.e. custom-made clothing, predesigned houses, commercial aircraft
+    * i.e. custom-made clothing, pre-designed houses, commercial aircraft
   * *Design-to-order (DTO)*.
     * Product is designed and built entirely to the customer's specifications.
-    * i.e. large construction projects, women's designer dresses, custom-made man's suits, orginal architecture house construction
+    * i.e. large construction projects, women's designer dresses, custom-made man's suits, original architecture house construction
 * Typical competitive priorities for these supply chains are development speed, fast delivery times, customization, variety, volume flexibility, and top quality.
 
-Companies may need to use both types of supply chains, especially when it focuses on operations in specific market segments. There may even be mixed elments. Anything to achieve optimal performance.
+Companies may need to use both types of supply chains, especially when it focuses on operations in specific market segments. There may even be mixed elements. Anything to achieve optimal performance.
 
 | Factor | Efficient Supply Chains | Responsive Supply Chains |
 | --- | --- | --- |
 | Operation strategy | MTS standardized services or products; emphasize high volumes | ATO, MTO, DTO customized services or products; emphasize variety |
 | Capacity cushion | Low | High |
-| Inventory investment | Low; enable high inventory turns | As needed to enable fast delivery time | 
+| Inventory investment | Low; enable high inventory turns | As needed to enable fast delivery time |
 | Lead time | Shorten, but do not increase costs | Shorten aggressively |
 | Supplier selection | Emphasize low prices, consistent quality, on-time delivery | Emphasize fast delivery time, customization, variety, volume, top flexibility, quality |
 
@@ -596,4 +596,119 @@ This has three important competitive advantages:
 1. *Managing customer relationships*.
    * Firms can learn a lot from customers based on the data it receives from customers providing inputs.
 2. *Eliminating finished goods inventory*.
+   * Producing to a customer's order is more efficient than to a forecast as long as you have everything needed to produce the order quickly.
+   * Can try to steer customers away from items that aren't in stock with things that are through software or sales promotions.
 3. *Increasing perceived value of services or products*.
+
+#### Supply Chain Design for Mass Customization
+
+Considerations you must consider:
+
+* *ATO Strategy*.
+  * Split up into two phases:
+    * Purchase standardized components and hold in stock.
+      * Important to try and buy in large volumes to keep costs low.
+    * Assemble standard components to a specific customer order.
+* *Modular design*.
+  * Must be able to assemble from a set of standardized modules economically and quickly in response to a customer order.
+* *Postponement*.
+  * The concept where some of the final activities in the provision of a service or product are delayed until the orders are received
+  * **channel assembly**: the process of using members of the distribution channel as if they were assembly stations in the factory
+
+### Outsourcing Processes
+
+* The more processes in the supply chain that the organization performs itself, the more *vertically integrated* it is.
+
+**outsourcing**: paying suppliers and distributors to perform processes and provide needed services and materials
+
+**offshoring**: a supply chain strategy that involves moving processes to another country
+
+**next-shoring**: a supply chain strategy that involves locating processes in close proximity to customer demand or product R&D
+
+The decision on whether to choose these strategies rely on a number of factors including:
+
+* Comparative labor costs
+* Rework and product returns
+  * Quality of workmanship should be considered.
+* Logistics costs
+  * It may be more logistically sound to be near customers and suppliers.
+* Tariffs and taxes
+* Market effects
+  * Can the present of the firm have an effect on local sales?
+* Labor laws and unions
+* Internet
+* Energy costs
+* Access to low-cost capital
+* Supply chain complexity
+
+Potential pitfalls include:
+
+* Pulling the plug too quickly. Trying to outsource before making a good-faith effort to fix the existing process.
+* Technology transfer.
+  * May be setting up a future competitor based on the transfer of technology in a joint venture.
+* Process integration.
+  * It is difficult to fully integrated outsourced processes with a firm's other processes.
+
+**backward integration**: a firm's movement upstream toward the sources of raw materials, parts, and services through acquisitions
+
+**forward integration**: acquiring more channels of distribution, such as distribution centers (warehouses) and retail stores, or even business customers
+
+**make-or-buy decision**: a managerial choice between whether to outsource a process or do it in-house
+
+## Supplement C: Special Inventory Models
+
+### Noninstantaneous Replenishment
+
+* Occurs when the inventory is replenished gradually, rather than in lots
+  * i.e. dinner rolls at a restaurant. Usually rolls are taken from the first pan before the baker finishes a five-pan batch. Inventory never reaches full five-pan level
+
+![img](images/lot-sizing-noninstantaneous-replenishment.png)
+
+* p and d must be expressed as units in the same time period (per day, week, etc.)
+* Maximum cycle inventory is:
+
+  <img src="https://render.githubusercontent.com/render/math?math=I_{max}=Q(\frac{p-d}{p})">
+
+* Total annual cost = Annual holding cost + Annual ordering or setup cost
+
+  <img src="https://render.githubusercontent.com/render/math?math=C=\frac{Q}{2}(\frac{p-d}{p})(H)%2b\frac{D}{Q}(S)">
+
+  * D = annual demand
+  * d = daily demand
+
+* **economic production lot size (ELS)**: the optimal lot size in a situation in which replenishment is not instantaneous
+  * Because the second term is greater than one, ELS results in a larger lot size than EOQ.
+
+  <img src="https://render.githubusercontent.com/render/math?math=ELS=\sqrt{\frac{2DS}{H}}\sqrt{\frac{p}{p-d}}">
+
+### Quantity Discounts
+
+* Price incentives to purchase large quantities, create pressure to maintain a large inventory
+* Price is no longer fixed as assumed in the EOQ derivation.
+* For any per-unit price level (P), the total cost is:
+  * Total annual cost = Annual holding cost + Annual ordering or setup cost + Annual cost of materials
+
+    <img src="https://render.githubusercontent.com/render/math?math=C=\frac{Q}{2}(H)%2b\frac{D}{Q}(S)%2bPD">
+
+  ![img](images/quantity-discounts.png)
+
+### One-Period Decisions
+
+* A common problem facing retailers is how to handle seasonal goods.
+  * Usually can't be sold at full markup the next year.
+  * Lead time can be longer in the selling season, allowing no second chance to rush through another order.
+  * *Newsboy problem*. If the newspaper seller does not buy enough newspapers to resell on the street corner, sales opportunities are lost. If the seller buys too many newspapers, the overage can't be sold because nobody wants yesterday's newspaper.
+
+Here is how to analyze the *newsboy problem*:
+
+1. List the different levels of demand that are possible, along with the estimated probability of each.
+2. Develop a payoff table that shows the profit for each purchase quantity, Q, at each assumed demand level, D. The payoff for a given quantity-demand combination depends on whether all units are sold at the regular profit margin during the regular season, which results in two possible cases:
+   * If demand is high enough (Q<=D), then all units are sold at the full profit margin, p, during the regular season
+     * Payoff = (Profit per unit)(Purchase quantity) = pQ
+   * If purchase quantity exceeds the eventual demand (Q>D), only D units are sold at the full profit margin, and the remaining units purchased must be disposed of at loss, l, after the season.
+     * Payoff = (Profit per unit sold during season)(Demand) - (Loss per unit)(Amount disposed of after season)
+
+        <img src="https://render.githubusercontent.com/render/math?math=Payoff=pD-l(Q-D)">
+
+3. Calculate the expected payoff for each Q (or row in the payoff table) by using the *expected value* decision rule.
+4. Choose the order quantity Q with the highest expected payoff.
