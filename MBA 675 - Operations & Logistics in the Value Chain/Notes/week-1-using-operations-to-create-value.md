@@ -144,7 +144,7 @@ Developing a corporate strategy involves four considerations:
 What if a manager can list the possible events but cannot estimate the probability? Managers can use one of four decision rules.
 
 1. **Maximin.** Choose the alternative that is the "best of the worst" (pessimist).
-2. **Maximax.** CHoose the alternative that is the "best of the best" (optimist).
+2. **Maximax.** Choose the alternative that is the "best of the best" (optimist).
 3. **Laplace.** Choose the alternative with the best weighted payoff (realist).
 4. **Minimax Regret.** Choose the alternative with the best "worst regret".
    * Calculate the regrets (difference between a given payoff and the best payoff in the same column) and choose the smallest.
