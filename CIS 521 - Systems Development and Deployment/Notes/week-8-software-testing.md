@@ -92,3 +92,77 @@ Testing approaches include:
 **install/uninstall testing**: testing done on full, partial, or upgrade install/uninstall processes on different operating systems under different hardware or software environment
 
 **load testing**: objective is to check how much load or maximum workload a system can handle without any performance degradation
+
+* Helps find the maximum capacity of the system under specif load and any issues that cause software performance degradation.
+
+**monkey testing**: testing with random input (as if a monkey with no knowledge would use it)
+
+* Not necessary to be aware of the full functionality of the system
+
+**mutation testing**: a type of white box testing in which the source code of one of the program is changed and verifies whether the existing test cases can identify these defects in the system
+
+* Usually a very minimal change that does not impact the entire change
+
+**negative testing**: testing with the mindset of "attitude to break", purposely entering incorrect data, invalid data, or input
+
+* Validates that system throws an error of invalid input and behaves as expected.
+
+**performance testing**: testing done check whether the system meets the performance requirements, also known as stress or load testing
+
+**recovery testing**: validates how well the system recovers from crashes or disasters
+
+* Determines if the system is able to continue the operation after a disaster (i.e. network loss or power failure)
+
+**regression testing**: testing an application as a whole for the modification in any module or functionality
+
+* usually done with automation testing tools
+
+**risk-based testing (RBT)**: the functionalities or requirements are tested based on their priority
+
+* Priority decision is based on business need.
+* Usually carried out if there is insufficient time available to test entire software and software needs to be implemented on time without any delay.
+
+**sanity testing**: testing done to determine if a new software version is performing well enough to accept it for a major testing effort or not
+
+**security testing**: done to check how the software or application is secure from internal and external threats
+
+* Includes how much software is secure from a malicious program, viruses, and how strong the authorization and authentication processes are
+
+**smoke testing**: validates that no show stopper defect exists in the build which will prevent the testing team to from testing the application in detail
+
+**static testing**: a type of testing done which is executed without executing on any code
+
+* Involves reviews, walkthrough, and inspection of the deliverables of the project. Checks code syntax and naming conventions.
+
+**stress testing**: testing done when a system is stressed beyond its specifications in order to check how and when it fails
+
+**system testing**: the entire system is tested as per the requirements
+
+**usability testing**: testing where user-friendliness is checked, to see if a new user can understand and navigate the application easily or not
+
+**vulnerability testing**: testing that involves identifying weakness in the software, hardware, and the network, helps identify critical defects or flaws in the security
+
+**volume testing**: testing where application undergoes a huge amount of data and checking of the behavior and response time
+
+## Video: [Why Software Testing?](https://youtu.be/pcTS5I5kpEs)
+
+Testing is important because, depending on the system, a bug or defect can be the difference between life and death or large revenue loss.
+
+## Video: [What is Software Testing?](https://youtu.be/cDQ34z0oqnQ)
+
+Testing is a phase of both the SDLC and waterfall development models.
+
+* Two components of testing:
+  * *Verification* means making sure that everything works and the system does what you expect.
+  * *Validation* means matching the customer requirements in an efficient manner.
+* The two primary types of testing are:
+  * *Functional testing*. Testing the actual code with input/output.
+  * *Nonfunctional testing*. Performance, speed, scalability, and load.
+
+Software development life cycle (SDLC)
+
+![img](images/sdlc-phases.png)
+
+Waterfall model
+
+![img](images/waterfall-model.png)
