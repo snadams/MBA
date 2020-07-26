@@ -143,3 +143,45 @@ The simplex procedure in computer codes is some form of the *simplex method*.
 3. Eliminate the last job scheduled from further consideration. Repeat steps 1 and 2 until all jobs have been scheduled.
 
 **labor-limited environment**: an environment in which the resource constraint is the amount of labor available, not the number of machines or workstations
+
+## Chapter 14: Supply Chain Integration
+
+**supply chain integration**: the effective coordination of supply chain processes through the seamless flow of information up and down the supply chain
+
+* When a link in the supply chain fails, whether it is an internal process or one at a supplier, the rest of the chain feels the effects.
+* **supply chain risk management**: the practice of managing the risk of any factor or event that can materially disrupt a supply chain, whether within a single firm or across multiple firms
+
+### Supply Chain Disruptions
+
+#### Causes of Supply Chain Disruptions
+
+* Result in cost increases, loss of reputation, civil and criminal penalties, bankruptcies, lost customers, or reduced revenue, profit, and market share.
+* External causes include:
+  * *Environmental disruptions*. Includes natural disasters, terrorism, political instability, regulatory changes, and strikes.
+  * *Supply chain complexity*. Any increase in the number of suppliers or changes in the configuration have the potential to cause disruptions in supply chain.
+  * *Loss of major accounts*.
+  * *Loss of supply*.
+  * *Customer-induced volume changes*. Customers may change the quantity of a product ordered and bring unexpected demand.
+  * *Service and product mix changes*. The change in mix can cause imbalances in inventory.
+  * *Late deliveries*.
+  * *Underfilled shipments*.
+* Internal causes include:
+  * *Internally generated shortages*. Caused by machine breakdowns, lengthy setup times, limited capacity and bottlenecks, or inexperienced workers.
+  * *Quality failures*. Product recalls cause huge costs and supply chain disruptions.
+  * *Poor supply chain visibility*. Not being able to "see" the inventories and capabilities of suppliers poses a risk to the performance of the firm.
+  * *Engineering changes*. A change to thee design of services or products can have a direct impact on suppliers.
+  * *Order batching*.
+  * *New service or product introductions*.
+  * *Service or product promotions*.
+  * *Information errors*.
+
+#### Supply Chain Dynamics
+
+**bullwhip effect**: the phenomenon in supply chains whereby ordering patterns experience increasing variance as you proceed upstream in the chain
+
+* Firms must react to the demands placed on them by downstream members of the chain. Slightest change in customer demands can ripple through the entire chain.
+* **SCOR model**: a framework that focuses on a basic supply chain of plan, source, make deliver, and return processes, repeated again and gain along the supply chain
+
+### Additive Manufacturing
+
+**additive manufacturing (AM)**: the technologies that build 3D objects by adding layers of material such as plastic, metal, or concrete

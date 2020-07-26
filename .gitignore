@@ -3,4 +3,5 @@
 *.doc*
 *.xls*
 *.ppt*
-*.lin*
+*.lin
+*.tmp
