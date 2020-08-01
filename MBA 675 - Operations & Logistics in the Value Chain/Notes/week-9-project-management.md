@@ -157,3 +157,134 @@ Project managers can alleviate resource problems with several options.
 * *Resource acquisition*. The addition of more of an overloaded resource to main the schedule of an activity.
 
 **closeout**: an activity that includes writing final reports, completing remaining deliverables, and compiling the team's recommendations for improving the project process
+
+## Chapter 15: Supply Chain Sustainability
+
+**sustainability**: a characteristic of processes that are meeting humanity's needs without harming future generations
+
+* It is not easy to achieve sustainability through supply chain. It requires cross-functional and inter-firm cooperation to address challenges such as:
+  * *Environmental protection*.
+    * Monitoring processes to improve waste elimination methods, reduce pollutions and increase efforts at ecological stewardship.
+  * *Productivity improvement*.
+    * Increase material conservation, energy efficiency and convert waste into useful by-products.
+  * *Risk minimization*.
+    * Ensuring that services and products do not pose health or safety hazards to customers.
+  * *Innovation*.
+    * Supporting their financial, environmental, and social responsibilities while serving the needs of customers with new products.
+
+### The Three Elements of Supply Chain Sustainability
+
+**financial responsibility**: an element of sustainability that addresses the financial needs of the shareholders, employees, customers, business partners, financial institutions, and any other entity that supplies the capital for the production of services or products or relies on the firm for wages or reimbursement
+
+**environmental sustainability**: an element of sustainability that addresses the ecological needs of the planet and the firm's stewardship of the natural resources used in the production of services and products
+
+* Leave as small of an environmental footprint so that future generations can make use of abundant natural resources
+
+**social responsibility**: an element of sustainability that addresses the moral, ethical, and philanthropic expectations that society has of an organization
+
+* **humanitarian logistics**: the process of planning, implementing, and controlling the efficient, cost-effective flow and storage of goods and materials, as well as related information, from the point of origin to the point of consumption for the purpose of alleviating the suffering of vulnerable people
+
+### Reverse Logistics
+
+**reverse logistics**: The process of planning, implementing, and controlling the efficient, cost effective flow of products, materials, and information from the point of consumption back to the point of origin for returns, repair, remanufacture, or recycling
+
+**closed-loop supply chain**: a supply chain that integrates forward logistics with reverse logistics, thereby focusing on the complete chain of operations from the birth to the death of a product
+
+* Firm must establish convenient collection points to receive used goods from the final customer
+  * Transport those goods to a returns processor (either done by the manufacturer or outsourced to a supplier)
+  * Could be cleaned and refurbished for direct use
+  * Could be disassembled and the usable parts and materials, cleaned, tested, and returned to production process
+
+### Energy Efficiency
+
+**carbon footprint**: the total amount of greenhouse gasses produced to support operations, usually expressed in equivalent tons of carbon dioxide
+
+* Managers use three levers to increase the energy efficiency of their operations.
+  * *Transportation distance*.
+    * Can simply decrease the amount of energy consumed by reducing the distance traveled in moving materials or supplying services.
+    * **route planning**: an activity that seeks to find the shortest route to deliver a service or product
+      * **shortest route problem**: a problem whose objective is to find the shortest distance between two cities in a network or map
+        * Largely solved my GPS systems, Google Maps
+      * **traveling salesman problem**: a problem whose objective is to find the shortest possible route that visits each city exactly once and returns to the starting city.
+        * Solved with the **nearest neighbor (NN) heuristic**, a technique that creates a route by deciding the next city to visit on the basis of its proximity
+          1. Start with the city that is designated as the central location (start city). Place all other cities in an unvisited set.
+          2. Choose the city in the unvisited set that is closest to the start city. Remove that city from the unvisited set.
+          3. Repeat the procedure with the latest visited city as the start city.
+          4. Conclude when all other cities have been visited, and return back to the central location.
+          5. Compute the total distance traveled along the selected route.
+        * Does not always find the optimal solution but is fast and provides reasonable solutions.
+  * *Freight density*.
+    * By reducing the volume that product displaces while staying within the weight limits of the conveyance, a firm can use fewer trucks, containers, or rail cars to ship the same number of units
+
+      <img src="https://render.githubusercontent.com/render/math?math=x=\frac{BD}{C}">
+
+      * x = break-even weight
+      * A = lower weight bracket
+      * B = next highest level weight bracket
+      * C = freight rate relative to A
+      * D = freight rate relative to B
+
+  * *Transportation mode*.
+    * Four major modes of transportation are:
+      * Air freight
+      * Trucking
+      * Shipping by water
+      * Rail
+    * From an energy perspective, air freight and trucking are less efficient than shipping or rail.
+    * Trucks are more flexible and can make deliveries right to the customer's door.
+    * **intermodal shipments**: mixing the modes of transportation for a given shipment, such as moving shipping containers or truck trailers on rail cars
+
+### Disaster Relief Supply Chains
+
+**disaster** a serious disruption of the functioning of society, causing widespread human, material, or environmental losses which exceed the ability of the affected people cope using only its own resources
+
+* Disasters can be:
+  * Human-related (Epidemic, arson, terrorism)
+  * Natural (Earthquake, tsunami, flood)
+* Humanitarian supply chains have three main operations related to disaster relief.
+  * *Preparation*.
+    * Since most disasters happen with little to no warning, it is beneficial for relief agencies to do advance planning to reduce response time.
+    * Communication protocols and IT infrastructure can be prepared.
+    * Kits of standardized, nonperishable items can be preassembled and stocked, and placed in strategic hubs to reduce the delivery time when the need arises.
+  * *Response*.
+    * Resources are mobilized and sent to the disaster location as soon as possible.
+  * *Recovery*.
+    * As time progresses, crisis mode of response gives way to a focus on building the information and logistical infrastructure and rehabilitating the affected population.
+* The unpredictability and severity of disasters pose unique challenges to supply chain managers.
+  * *Design implications*. Many disaster relief supply chains exist for only short times, which require a new design from scratch that prioritizes speed and agility over everything.
+  * *Command and control*. UN usually has leadership in major international disasters. National and local governments must also be recognized and included.
+    * They may not allow access to certain agencies based on security or political reasons.
+  * *Cargo security*.
+    * Can experience theft or extra delays due to numerous police checks/weight checks.
+  * *Donor independence*.
+    * Each agency sends what they thing is needed which can lead to confusion, congestion, overstocking of some items, and understocking of others.
+  * *Change in work flow*.
+    * Actual needs should dictate the required volume of supplies (pull-flow). Usually push-flow is how most disasters supply chains start.
+  * *Local infrastructure*.
+    * Damage to roads, railways, airports can reduce logistical movement of needed supplies.
+  * *High employee turnover*.
+  * *Poor communication*.
+    * Telephone lines disrupted, cell service limited, Internet unreliable.
+
+### Supply Chain Ethics
+
+#### Buyer-Supplier Relationships
+
+**SA8000:2014**: a list of standards covering nine dimensions of ethical workforce management
+
+1. *Child labor*. Employ no underage workers.
+2. *Forced or compulsory labor*. Includes prison or debt bondage labor.
+3. *Healthy and safety*. Provide a safe and healthy work environment.
+4. *Freedom of association and right to collective bargaining*.
+5. *Discrimination*.
+6. *Disciplinary practices*. No corporal punishment, mental or physical coercion, or verbal abuse.
+7. *Working hours*. Require no more than 48 hours per week with at least 1 day off for every 7-day period.
+8. *Remuneration*.
+9. *Management systems*.
+
+Other unethical activities include:
+
+* Revealing confidential bids and allow certain suppliers to rebid
+* Making reciprocal arrangements whereby the firm purchases from a supplier who in turn purchases from the firm
+* Exaggerating situations to get better deals
+* Using company resources for personal gain
