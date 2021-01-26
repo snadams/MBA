@@ -149,3 +149,174 @@ The purpose of compiling a *worry list* that sets forth the strategic issues and
 * *What to do* to combat the aging demographics of company's customer base
 
 ## Chapter 5: The Five Generic Competitive Strategy Options: Which One to Employ?
+
+**competitive strategy**: deals exclusively with the specifics of management's game plan for competing successfully
+
+* How it intends to please customers
+* Offensive and defensive moves to counter the maneuvers of rivals
+* Responses to shifting market conditions
+* Initiatives to strengthen the company's market position and achieve a particular kind of competitive advantage
+
+### Low-Cost Provider Strategies
+
+***Core basis for competitive advantage is lower overall costs than rivals. Are exceptionally god at finding ways to drive costs out of their businesses.***
+
+* Must be the industry's lowest-cost provider rather than among several competitors with comparatively low costs.
+* Does not mean the lowest possible cost because features that are considered essential to the product must be incorporated.
+* The two ways to translate this advantage into attractive profit performance is:
+  * Use it to underprice competitors and attract price-sensitive buyers in great numbers to increase total profits.
+    * Risky because competitors can retaliate with low prices that negates the advantage.
+  * Charge a price comparable to low-priced rivals and rely upon the low-cost edge over rivals to earn a bigger profit margin per unit sold.
+* To achieve a low-cost edge over rivals, a firm's cumulative costs across its overall value chain must be lower than competitors cumulative costs, which can be accomplished by doing the following::
+  * Perform value chain activities more cost effectively than rivals.
+  * Revamp the firm's overall value chain to eliminate or bypass some cost-producing activities.
+
+**cost driver**: a factor that has a strong influence on company's costs
+
+* Can be used as levers to lower costs
+* Some cost-saving approaches that demonstrate effective use of cost drivers include:
+  * Capturing all available economies of scale.
+    * Using common components, cutting back the number of models offered.
+    * Having a large plant vs. small or medium plant
+  * Taking full advantage of experience and learning-curve effects
+  * Operating facilities at full capacity
+  * Substituting the use of low-cost for high-cost raw materials when there is little or no sacrifice in product quality or performance
+  * Using the company's bargaining power vis-a-vis suppliers to gain concessions
+  * Improving supply chain efficiency
+  * Pursuing actions to lower labor costs per unit produced
+  * Improving product design and employing cost-saving production techniques
+  * Using online systems and sophisticated software to achieve operating efficiencies
+  * Using outsourcing and/or vertical integration to achieve cost savings
+* Revamping the value chain
+  * Selling direct to consumers and cutting out the activities and costs of distributors and dealers.
+    * Create its own direct sales force.
+    * Conduct sales through a company website.
+  * Shifting the use of technologies and/or information systems that bypass the need to perform certain high-cost value chain activities.
+  * Streamlining operations by eliminating low value-added or unnecessary work stops and activities.
+    * Walmart sometimes has manufacturers deliver directly to stores, bypassing distribution centers.
+  * Reducing materials handling and shipping costs by having suppliers locate their plants or warehouses close to a company's own facilities.
+
+#### When does a low-cost provider strategy work best?
+
+* Price competition among rival sellers is vigorous.
+* The products of rival sellers are essentially identical and readily available from many eager sellers.
+* It is difficult to achieve product differentiation in ways that have value to buyers.
+* Most buyers use the product in the same ways.
+* Buyers incur low costs in switching their purchases from one seller to another.
+* Large-volume buyers with significant power to bargain down prices account for a big fraction of the industry's sales.
+* Industry newcomers use introductory low prices to attract buyers and build a customer base.
+
+#### What are the pitfalls of pursuing a low-cost provider strategy?
+
+* Getting carried away with overly aggressive price cutting to win sales/market share away from rivals. This does not always translate in higher total profits.
+* Relying on cost reduction approaches that can be easily copied by rivals.
+  * Best to be kept proprietary, or too costly and/or time-consuming for rivals to copy.
+* Becoming too fixated on cost reduction.
+  * Do not let the product become too features poor to generate buyer appeal.
+  * Could also read that the company is ignoring buyer intrust for added features or service.
+
+### Broad Differentiation Strategies
+
+***Core basis is to offer unique product attributes that a wide range of buyers find appealing and worth paying for.***
+
+* Successful differentiation allows a firm to do one (or more) of the following:
+  * Command a premium price for its product
+  * Increase unit sales
+  * Gain buyer loyalty to its brand
+* It achieves profitability when the higher price or larger unit sales to exceed the added costs of achieving the differentiation.
+* Can achieve differentiation in a variety of ways including a unique taste, multiple features, wide selection and one-stop shopping, quality manufacturing, etc.
+* It involves focusing on value driver (analogous to cost drivers) that are particularly effective in creating differentiation and adding values for customers.
+* Ways that managers can use values drivers to enhance differentiation include the following:
+  * Create value-adding product features and performance attributes that appeal to a wide range of buyers.
+  * Pursuing continuous quality improvements via the use of better parts, components, or ingredients and the use of quality control processes through the value chains.
+  * Emphasizing new product R&D and product innovations.
+  * Improving product selection.
+  * Investing in production-related R&D, striving for technological advances, and implementing better production techniques.
+  * Improving customer service and/or providing more service options.
+  * Emphasizing human resource management activities that improve the skills, expertise, and knowledge of company personnel.
+  * Pursuing sales, marketing, and advertising activities that lead to greater brand name power.
+  * Improving distribution capabilities and collaborating with distribution allies to enhance customer perceptions of value.
+* A company can assists efforts to achieve differentiation by signaling the value of its product offering to buyers, with signals like:
+  * High price (implies high quality and performance)
+  * Appealing or fancier packaging than competing products
+  * Ongoing or extensive ad campaigns (impact a product's image, makes it more widely known)
+  * Ad content that emphasizes a product's standout attributes
+  * Luxuriousness/ambience of a seller's facilities
+  * Professionalism/appearance of seller's employees
+* It is important to signal value when:
+  * the nature of differentiation is subjective or hard to quantify
+  * buyers are making a first-time purchase and are unsure of what their experience with the product will be
+  * buyers are not fully aware of a product's many attributes
+  * repurchase is infrequent and buyers need to be reminded of a product's value
+* The best routes to achieving a sustainable competitive via differentiation include:
+  * Focusing on continuous product innovation, with a goal of developing the resources and capabilities to out-innovate rivals on an ongoing basis
+  * Incorporating features that raise product performance and deliver added value to the buyer/end-user
+  * Incorporating product attributes and user features that lower the buyer's overall costs of using the company's product
+  * Incorporating features or attributes that enhance buyer satisfaction in intangible ways
+  * Delivering value to customers on the basis of competitively valuable resources and capabilities that rivals don't have or can't afford to match.
+
+#### When does a broad differentiation strategy work best?
+
+* Buyer needs and uses of the products are diverse.
+* There are many ways to differentiate the product or service that have value to buyers.
+* Few rival firms are following a similar differentiation approach.
+* Technological change is fast paced, and competition revolves around rapidly evolving product features.
+
+#### What are the pitfalls to avoid in pursuing in a differentiation strategy?
+
+* A differentiation strategy keyed to product or service attributes that are easily and quickly copied is always doomed.
+  * Must search out sources of uniqueness that are time-consuming or burdensome for rivals to match.
+* A company's differentiation approach produces an unenthusiastic response on the part of buyers.
+  * Even if the differentiation is successful, customers might not find the differentiating features worth paying for.
+* Overspending on efforts to differentiate the company's product offering, thus eroding profitability.
+* Not building a strong enough differentiation. Differences may be so small or trivial that they are not visible or important to buyers.
+* Adding too many frills and extra features that exceeds the needs and use patterns of most buyers, who may conclude that a less deluxe brand is a better value.
+* Charging too high a price premium.
+
+### Focused Low-Cost Strategies
+
+***Seeks to achieve a competitive advantage by serving buyers in the target market niche at a lower cost and lower price than rival competitors***
+
+* Can allow firms to lower costs significantly by limiting customer base to a well-defined segment.
+* The only difference to low-cost leadership is the size of the buyer group that a company is trying to appeal to.
+
+### Focused Differentiation Strategies
+
+***Focuses on securing a competitive advantage with a product offering tailored to the unique preferences and needs of a narrow well-defined group of buyers.***
+
+* Successful use of a focused differentiation strategy depends on:
+  * The existence of a buyer segment that is looking for special product attributes or seller capabilities
+  * A firm's ability to create an appealing product offering that stands apart from those of rivals competing in the same target market niche
+
+#### When is a focused low-cost or focused differentiation strategy attractive?
+
+* The target market niche is big enough to be profitable and offers good growth potential.
+* Industry leaders have chosen not to compete in the niche.
+* It is costly or difficult for companies with a broad market target to put capabilities in place to meet the specialized needs of buyers comprising the target market niche and also satisfy the expectations of their mainstream customers.
+* The industry has many different niches and segments, thereby allowing a focuser to pick a competitively attractive niche suited to its resources and capabilities.
+* Few, if any, other rivals are attempting to specialize in the same target segment.
+* THe focuser has a reservoir of customer goodwill and loyalty, that it can use to help stave off any ambitious challengers looking to horn in on its business.
+
+#### What are the risks of a focused low-cost or focused differentiation strategy?
+
+* Competitors outside of the niche will find effective ways to match the focused firm's capabilities in serving the target niche.
+* The potential for the preferences and needs of niche members to shift over time toward the product attributes desired by buyers in the mainstream portion of the market
+* Segment may become so attractive that it is inundated with competitors, intensifying rivalry and splintering segment profits.
+
+### Best-Cost Provider Strategies
+
+***The essence of this strategy is to give customers the best value for the money by satisfying buyer desires for appealing features/performance/quality/service and charing a lower price for those attributes compared to rivals with similar-caliber product offerings.***
+
+* Essentially the low-cost provider of a product or service with *upscale attributes*.
+* Target market is buyers looking for appealing extras and functionality at an appealingly low price.
+
+#### When does a best-cost provider strategy work best?
+
+* In markets where product differentiation is the norma
+* Attractively large numbers of buyers shopping for "best value for the money" products can be induced to purchase midrange or near-luxury products rather than the cheap basic products of low-cost producers
+
+#### What are the biggest risks of a best-cost provider strategy?
+
+* Getting squeezed between the strategies of firms using low-cost and high-end differentiation strategies.
+
+***A company’s competitive strategy is unlikely to result in good performance or sustainable competitive advantage unless the company hasa competitively potent collection of resources and capabilities that enable the company to execute its strategy with great proficiency.***
